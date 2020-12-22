@@ -1,0 +1,42 @@
+<templateSet group="Gradle">
+  <template name="gdlXlint" value="gradle.projectsEvaluated {&#10;        tasks.withType(JavaCompile) {&#10;            options.compilerArgs &lt;&lt; &quot;-Xlint:deprecation&quot;&#10;        }&#10;}   " description="adding this to root gradle file under allprojects - recompile with -Xlint:deprecation" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlExtension" value="//Usege $rootProject.ext.appcompat&#10;ext {&#10;    retrofit_version = '2.3.0'&#10;    retrofit_okhttp_version = '3.10.0'&#10;    android_compile_version = 25&#10;    android_version = '25.0.3'&#10;    // Google Play Services minimum requirements is 14&#10;    android_min_sdk_version = 16&#10;    appcompat = '1.1.0-alpha01'&#10;    constraintlayout = '1.0.0'&#10;    material = '1.0.0'&#10;    recyclerview = '1.0.0'&#10;    cardview = '1.0.0'&#10;    appcompat_library_version = '28.+'&#10;    support_library_version = '25.3.1'&#10;    gms_library_version = '15.0.1'&#10;    gms_play_library_version = '15.0.0'&#10;    fbs_library_version_ads = '18.0.0'&#10;    fbs_library_version_config = '17.0.0'&#10;    fbs_core_library_version = '16.0.3'&#10;    fbs_message_library_version = '17.3.0'&#10;    fbs_auth_library_version = '18.0.0'&#10;    play_services_auth = '17.0.0'&#10;    config_version = '2.1-alpha07'&#10;    firebase_crashlytics_version = '2.10.1'&#10;    adssdkmaster_version = '1.0.3'&#10;    loginmaster_version = '2.0'&#10;}" description="create extension list under root gradle file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlJitpackImport" value="maven {&#10;    url &quot;https://jitpack.io&quot;&#10;    credentials { username authToken }&#10;}" description="import jitpack mavan repository url under allProjects in root gradle file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlJitpackAuthToken" value="#Jitpack auth token&#10;authToken=jp_65cg6e0t51u6mt3uoif46rva4" description="Jitpack auth token adding in gradle.properties file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlKeyFlavorDefault" value="flavorDimensions &quot;default&quot;&#10;" description="adding default code under defaultConfig" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlKeySigningConfig" value="&#10;productFlavors{&#10;    foundation{&#10;        applicationId &quot;foundation.course&quot;&#10;        versionCode 1&#10;        versionName &quot;1.0&quot;&#10;        manifestPlaceholders = [onesignal_app_id: &quot;583b133d-b465-49ff-9de9-631a7e08edd1&quot;, onesignal_google_project_number: &quot;REMOTE&quot;]&#10;    }&#10;}&#10;signingConfigs {&#10;    foundation {&#10;        storeFile file('../keystore/release.jks')&#10;        storePassword 'dennislabs@123'&#10;        keyAlias 'dennislabs'&#10;        keyPassword 'dennislabs@123'&#10;    }&#10;}&#10;" description="adding productFlavors and signingConfigs code" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlKeyBuildType" value="productFlavors.foundation.signingConfig signingConfigs.foundation&#10;" description="adding code under buildTypes -&gt; release section" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="gdlCompileOptions" value="&#10;compileOptions {&#10;    sourceCompatibility JavaVersion.VERSION_1_8&#10;    targetCompatibility JavaVersion.VERSION_1_8&#10;}" description="Adding JavaVersion.VERSION_1_8" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,17 @@
+<templateSet group="correct">
+  <template name="codeRecyclarViewNestedScrolling" value="mRecyclerView.setNestedScrollingEnabled(false);&#10;            " description="Collapsing toolbar layout doesn't work when using horizontal recycler view inside nested scroll view" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="codeViewPagerAdapter" value="ViewPagerAdapter adapter = new ViewPagerAdapter(getChildFragmentManager());&#10;" description="View pager adapter not working properly in Fragment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="xmlToolbarAlignCenter" value="            android:layout_height=&quot;70dp&quot;&#10;            android:minHeight=&quot;70dp&quot; &#10;            app:contentInsetStart=&quot;0dp&quot;" description="Toolbar back arrow icon not align with Title" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

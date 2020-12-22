@@ -1,0 +1,32 @@
+<templateSet group="XML">
+  <template name="xmlDescendantFocusability" value="android:descendantFocusability=&quot;blocksDescendants&quot;" description="fix NestedScrollView focussed changed to bottom" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlTextDimensions" value="&lt;dimen name=&quot;textSizeExtraLarge&quot;&gt;22sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeLarge&quot;&gt;18sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeMedium&quot;&gt;16sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeSmall&quot;&gt;14sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeExtraSmall&quot;&gt;12sp&lt;/dimen&gt;" description="Text Dimensions (Small, Medium, Large)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlNavigationViewProperty" value="android:background=&quot;@color/themeNavBackgroundColor&quot;&#10;app:itemIconTint=&quot;@color/menu_tint_color&quot;&#10;app:itemTextColor=&quot;@color/menu_tint_color&quot;&#10;app:itemBackground=&quot;@drawable/bg_drawer_selector&quot;" description="theme properties of NavigationView (background, iconTint, textColor, itemBackground)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xml_bg_drawer_selector" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item android:drawable=&quot;@drawable/bg_nav_selector&quot; android:state_pressed=&quot;true&quot;&gt;&lt;/item&gt;&#10;    &lt;item android:drawable=&quot;@drawable/bg_nav_selector&quot; android:state_activated=&quot;true&quot;&gt;&lt;/item&gt;&#10;    &lt;item android:drawable=&quot;@drawable/bg_nav_selector&quot; android:state_checked=&quot;true&quot;&gt;&lt;/item&gt;&#10;    &lt;item android:drawable=&quot;@android:color/transparent&quot;&gt;&lt;/item&gt;&#10;&lt;/selector&gt;" description="bg_drawer_selector.xml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xml_menu_item_tint_color" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item android:color=&quot;@color/themeNavItemColorSelected&quot; android:state_checked=&quot;true&quot; /&gt;&#10;    &lt;item android:color=&quot;@color/themeNavItemColor&quot; android:state_checked=&quot;false&quot;/&gt;&#10;&lt;/selector&gt;" description="menu_item_tint_color.xml file content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlTextSiges" value="&lt;dimen name=&quot;textSizeExtraLarge&quot;&gt;22sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeLarge&quot;&gt;18sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeMedium&quot;&gt;16sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeSmall&quot;&gt;14sp&lt;/dimen&gt;&#10;&lt;dimen name=&quot;textSizeExtraSmall&quot;&gt;12sp&lt;/dimen&gt;" description="All text size dimensions" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

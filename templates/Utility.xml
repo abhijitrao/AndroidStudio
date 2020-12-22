@@ -1,0 +1,163 @@
+<templateSet group="Utility">
+  <template name="utilAddFlags" value="intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);" description="Adding flag in Intent FLAG_ACTIVITY_NEW_TASK" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilSingletonClass" value="public class SingletonClass {&#10;    &#10;    private static volatile SingletonClass sSoleInstance;&#10;&#10;    private SingletonClass() {&#10;        if (sSoleInstance != null) {&#10;            throw new RuntimeException(&quot;Use getInstance() method to get the single instance of this class.&quot;);&#10;        }&#10;    }&#10;&#10;    public static SingletonClass getInstance() {&#10;        if (sSoleInstance == null) {&#10;            synchronized (SingletonClass.class) {&#10;                if (sSoleInstance == null) sSoleInstance = new SingletonClass();&#10;            }&#10;        }&#10;        return sSoleInstance;&#10;    } &#10;}" description="Create SingletonClass all methods and variables" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilArrayShort" value="// list = List&lt;Object&gt;&#10;// Object = String, Integer, Date etc.&#10;Collections.sort(list, new Comparator&lt;Object&gt;() {&#10;    @Override&#10;    public int compare(Object item, Object item2) {&#10;        return item2.compareToIgnoreCase(item);&#10;        return item2.compareTo(item);&#10;    }&#10;});&#10;Collections.sort(userList, new Comparator&lt;User&gt;() {&#10;    @Override&#10;    public int compare(User item, User item2) {&#10;        Integer value = item.getRanking();&#10;        Integer value2 = item2.getRanking();&#10;        return value2.compareTo(value);&#10;    }&#10;});" description="Short Array List using Collections.sort" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilValidateUrl" value="public static boolean isValidURL(String urlStr) {&#10;      return  Patterns.WEB_URL.matcher(urlStr).matches();&#10;}" description="Validate URL by using Patterns.WEB_URL.matcher" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilPostDelayed" value="new Handler().postDelayed(new Runnable() {&#10;    @Override&#10;    public void run() { &#10;        // write your code here&#10;    }&#10;}, 400);" description="Post Delayed UI for a Time Interval" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilEscapeSingleQuoteSQL" value="word.replace(&quot;'&quot;, &quot;''&quot;)" description="Escape a single quote in SQL Query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilAlertDialog" value="//Simple&#10;AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.DialogTheme);&#10;builder.setTitle(&quot;Alert!&quot;)&#10;        .setMessage(&quot;Detail message body?&quot;)&#10;        .setPositiveButton(&quot;Apply&quot;, (dialog, id) -&gt; {&#10;            dialog.dismiss();&#10;        })&#10;        .setNegativeButton(&quot;Cancel&quot;, (dialog, id) -&gt; dialog.dismiss());&#10;builder.setCancelable(true);&#10;builder.create().show();&#10;//Advance &#10;AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.DialogTheme);&#10;builder.setTitle(&quot;Alert!&quot;);&#10;builder.setMessage(&quot;Detail message body?&quot;);&#10;DialogInterface.OnClickListener buttonListener = new DialogInterface.OnClickListener() {&#10;    public void onClick(DialogInterface dialog, int which) {&#10;        dialog.dismiss();&#10;    }&#10;};&#10;builder.setOnCancelListener(new DialogInterface.OnCancelListener() {&#10;    @Override&#10;    public void onCancel(DialogInterface dialogInterface) {&#10;        dialogInterface.dismiss();&#10;    }&#10;});&#10;builder.setNeutralButton(&quot;Neutral&quot;, buttonListener);&#10;builder.setPositiveButton(&quot;Apply&quot;, buttonListener);&#10;builder.setNegativeButton(&quot;Cancel&quot;, buttonListener);&#10;&#10;AlertDialog alertDialog = builder.create();&#10;alertDialog.setCanceledOnTouchOutside(true);&#10;alertDialog.setCancelable(true);&#10;alertDialog.show();" description="Create new Alert Dialog through AlertDialog.Builder" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilToast" value="Toast.makeText(this,&quot;Message&quot;, Toast.LENGTH_SHORT).show();&#10;" description="Create new Toast View" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilResponseListeners" value="public interface Response {&#10;    //Useage : function(@Response.Visibility int visibility)&#10;    @IntDef({VISIBLE, INVISIBLE, GONE})&#10;    @Retention(RetentionPolicy.SOURCE)&#10;    @interface Visibility {}&#10;    &#10;    interface Callback&lt;T&gt; {&#10;        void onSuccess(T response);&#10;        void onFailure(Exception e);&#10;    }&#10;&#10;    interface Status&lt;T&gt; {&#10;        void onSuccess(T response);&#10;    }&#10;&#10;    interface NetworkCallback&lt;T&gt; {&#10;        void onCompleted();&#10;        void onDataLoaded();&#10;        void onSuccess(T response);&#10;        void onFailure(Exception e);&#10;    }&#10;&#10;    interface OnClickListener&lt;T&gt; {&#10;        void onItemClicked(View view, T item);&#10;    }&#10;&#10;    interface OnListClickListener&lt;T&gt; {&#10;        void onItemClicked(View view, T item);&#10;        void onDeleteClicked(View view, int position, T item);&#10;    }&#10;    &#10;    interface Progress {&#10;        void onStartProgressBar();&#10;        void onStopProgressBar();&#10;    }&#10;}" description="Create Response.java class and there methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilNavigationHeaderView" value="navigationView = (NavigationView) findViewById(R.id.nav_view);&#10;View header = navigationView.getHeaderView(0);&#10;header.setOnClickListener(this);&#10;tvProfile = (TextView) header.findViewById(R.id.tv_profile);&#10;ivProfile = (ImageView) header.findViewById(R.id.iv_profile);" description="get reference of NavigationView getHeaderView (tvProfile, ivProfileImage)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilNavigationMenuItemView" value="navigationView = (NavigationView) findViewById(R.id.nav_view);&#10;MenuItem miProfile = navigationView.getMenu().findItem(R.id.nav_login);&#10;        " description="find item from side drawer NavigationView" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilArrayShortKotlin" value="List&lt;Category&gt; catList;&#10;catList = catList.sortedWith(compareBy { it.ranking })" description="Short Array List using Collections.sort" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilTaskRunner" value="import android.os.Handler;&#10;import android.os.Looper;&#10;&#10;import java.util.concurrent.Callable;&#10;import java.util.concurrent.Executor;&#10;import java.util.concurrent.Executors;&#10;&#10;public class TaskRunner {&#10;    private final Executor executor = Executors.newCachedThreadPool(); // change according to your requirements&#10;    private final Handler handler = new Handler(Looper.getMainLooper());&#10;&#10;    public interface Callback&lt;R&gt; {&#10;        void onComplete(R result);&#10;        void onError(Exception e);&#10;    }&#10;&#10;    public &lt;R&gt; void executeAsync(Callable&lt;R&gt; callable, Callback&lt;R&gt; callback) {&#10;        executor.execute(() -&gt; {&#10;            try {&#10;                final R result = callable.call();&#10;                handler.post(() -&gt; {&#10;                    if (callback != null) {&#10;                        callback.onComplete(result);&#10;                    }&#10;                });&#10;            } catch (Exception e) {&#10;                e.printStackTrace();&#10;                handler.post(() -&gt; {&#10;                    if (callback != null) {&#10;                        callback.onError(e);&#10;                    }&#10;                });&#10;            }&#10;        });&#10;    }&#10;&#10;    public &lt;R&gt; void executeAsync(Callable&lt;R&gt; callable) {&#10;        executor.execute(() -&gt; {&#10;            try {&#10;                callable.call();&#10;            } catch (Exception e) {&#10;                e.printStackTrace();&#10;            }&#10;        });&#10;    }&#10;}" description="Create file TaskRunner" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilAppPreferences" value="&#10;import android.content.Context;&#10;import android.content.SharedPreferences;&#10;import android.text.TextUtils;&#10;&#10;&#10;public class AppPreferences {&#10;&#10;    public static final String DAY_MODE = &quot;dayMode&quot;;&#10;&#10;    private static SharedPreferences sharedPreferences;&#10;&#10;    public static SharedPreferences getSharedPreferenceObj(Context context){&#10;        if (context != null &amp;&amp; sharedPreferences == null )&#10;            sharedPreferences = context.getSharedPreferences(context.getPackageName() , Context.MODE_PRIVATE);&#10;&#10;        return sharedPreferences ;&#10;    }&#10;    public static String getString(Context context, String key) {&#10;        if (getSharedPreferenceObj(context) != null) {&#10;            return decrypt(getSharedPreferenceObj(context).getString(encrypt(key), &quot;&quot;));&#10;        } else {&#10;            return decrypt(&quot;&quot;);&#10;        }&#10;    }&#10;    public static int getInt(Context context, String key) {&#10;        if (getSharedPreferenceObj(context) != null) {&#10;            return getSharedPreferenceObj(context).getInt(encrypt(key), 0);&#10;        } else {&#10;            return (0);&#10;        }&#10;    }&#10;    public static int getIntDef(Context context, String key, int def) {&#10;        return getSharedPreferenceObj(context).getInt(encrypt(key), def);&#10;    }&#10;    public static float getFloat(Context context, String key) {&#10;        return getSharedPreferenceObj(context).getFloat(encrypt(key), 0);&#10;&#10;    }&#10;    public static long getLong(Context context, String key) {&#10;        return getSharedPreferenceObj(context).getLong(encrypt(key), 0);&#10;    }&#10;    public static boolean getBoolean(Context context, String key, boolean defaultValue) {&#10;        if (getSharedPreferenceObj(context) != null) {&#10;            return getSharedPreferenceObj(context).getBoolean(key, defaultValue);&#10;        } else {&#10;            return false;&#10;        }&#10;    }&#10;    public static void setString(Context context, String key, String values) {&#10;        if (getSharedPreferenceObj(context) != null &amp;&amp; !TextUtils.isEmpty(key)) {&#10;            final SharedPreferences.Editor editor = getSharedPreferenceObj(context).edit();&#10;            if (editor != null) {&#10;                editor.putString(encrypt(key), encrypt(values));&#10;                editor.apply();&#10;            }&#10;        }&#10;    }&#10;    public static void setInt(Context context, String key, int value) {&#10;        if (getSharedPreferenceObj(context) != null &amp;&amp; !TextUtils.isEmpty(key)) {&#10;            final SharedPreferences.Editor editor = getSharedPreferenceObj(context).edit();&#10;            if (editor != null) {&#10;                editor.putInt(encrypt(key), value);&#10;                editor.apply();&#10;            }&#10;        }&#10;    }&#10;    public static void setFloat(Context context, String key, float value) {&#10;        final SharedPreferences.Editor editor = getSharedPreferenceObj(context).edit();&#10;        editor.putFloat(encrypt(key), value);&#10;        editor.apply();&#10;    }&#10;    public static void setLong(Context context, String key, long value) {&#10;        final SharedPreferences.Editor editor = getSharedPreferenceObj(context).edit();&#10;        editor.putLong(encrypt(key), value);&#10;        editor.apply();&#10;    }&#10;    public static void setBoolean(Context context, String key, boolean value) {&#10;        if (getSharedPreferenceObj(context) != null &amp;&amp; !TextUtils.isEmpty(key)) {&#10;            final SharedPreferences.Editor editor = getSharedPreferenceObj(context).edit();&#10;            if (editor != null) {&#10;                editor.putBoolean(encrypt(key), value);&#10;                editor.apply();&#10;            }&#10;        }&#10;    }&#10;&#10;    /**&#10;     * Clear all preferences.&#10;     */&#10;    public static void clearPreferences(Context context) {&#10;        final SharedPreferences.Editor editor = getSharedPreferenceObj(context).edit();&#10;        editor.clear();&#10;        editor.apply();&#10;    }&#10;&#10;    private static String encrypt(String input) {&#10;        // This is base64 encoding, which is not an encryption&#10;        return input;&#10;//        if (SupportUtil.isEmptyOrNull( input )) {&#10;//            return input ;&#10;//        } else {&#10;//            return Base64.encodeToString(input.getBytes(), Base64.DEFAULT);&#10;//        }&#10;    }&#10;&#10;    private static String decrypt(String input) {&#10;        return input;&#10;//        if (SupportUtil.isEmptyOrNull( input )) {&#10;//            return input ;&#10;//        } else {&#10;//            return new String(Base64.decode(input, Base64.DEFAULT));&#10;//        }&#10;    }&#10;&#10;}" description="Create AppPreferences file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilGetColorValue" value="public static String getColorValue(Context context, int colorResource) {&#10;    try {&#10;        return &quot;#&quot; + Integer.toHexString(ContextCompat.getColor(context, colorResource) &amp; 0x00ffffff);&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;        return &quot;#ffffff&quot;;&#10;    }&#10;}" description="Integer.toHexString get hex color value from colors.xml file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilSuppressLint" value="@SuppressWarnings(&quot;deprecation&quot;)&#10;@SuppressWarnings(&quot;unused&quot;)&#10;@SuppressLint(&quot;SetTextI18n&quot;)&#10;&#10;//noinspection deprecation&#10;Add comment above depricated method" description="Suppress Lint implementation methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilSerializedAlternateName" value="@Expose&#10;@SerializedName(value=&quot;item_type&quot;, alternate={&quot;item_type&quot;, &quot;category_type&quot;})" description="Adding GSON property SerializedName with alternate option" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilFindDrawableImage" value="private int findImageResourceByName(Context context, String drawableName) {&#10;    if (context != null &amp;&amp; drawableName != null) {&#10;        return context.getResources().getIdentifier(drawableName, &quot;drawable&quot;, context.getPackageName());&#10;    } else {&#10;        return 0;&#10;    }&#10;}" description="find drawable image by name" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilGetSequentialColor" value="private int getSequentialColor(int i) {&#10;    if(i % 5 == 0) {&#10;        return mContext.getResources().getColor(R.color.color1);&#10;    } else if(i == 1 || (i-1) % 5 == 0) {&#10;        return mContext.getResources().getColor(R.color.color2);&#10;    } else if(i == 2 || (i-2) % 5 == 0) {&#10;        return mContext.getResources().getColor(R.color.color3);&#10;    } else if(i == 3 || (i-3) % 5 == 0) {&#10;        return mContext.getResources().getColor(R.color.color4);&#10;    } else if(i == 4 || (i-4) % 5 == 0) {&#10;        return mContext.getResources().getColor(R.color.color5);&#10;    }else {&#10;        return mContext.getResources().getColor(R.color.color1);&#10;    }&#10;}" description="getSequentialColor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilTrimHtmlWhitespace" value="public static CharSequence trim(CharSequence text) { &#10;    while (text.charAt(text.length() - 1) == '\n') {&#10;        text = text.subSequence(0, text.length() - 1);&#10;    }&#10;    return text;&#10;}" description="Remove bottom extra lines from Html.fromHtml(htmlText)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilPopUpMenu" value="    private void showPopUpMenu() {&#10;        if (mActivity != null) { &#10;            Context wrapper = new ContextThemeWrapper(mActivity, R.style.PopupMenuStyle);&#10;            PopupMenu popup = new PopupMenu(wrapper, ivMenuButton);&#10;            popup.getMenuInflater().inflate(R.menu.tl_menu_post, popup.getMenu());&#10;&#10;            MenuPopupHelper menuHelper = new MenuPopupHelper(wrapper, (MenuBuilder) popup.getMenu(), ivMenuButton);&#10;            menuHelper.setForceShowIcon(true);&#10;&#10;            popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {&#10;                @Override&#10;                public boolean onMenuItemClick(MenuItem item) {&#10;                    int itemId = item.getItemId();&#10;                    if (itemId == R.id.action_save_to_my_notes) {&#10;                        bookmarkPost();&#10;                    } else if (itemId == R.id.action_share_post) {&#10;                        sharePost(2);&#10;                    }&#10;                    return true;&#10;                }&#10;            });&#10;            menuHelper.show();&#10;        }&#10;    }" description="Create Popup menu through PopupMenu" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilTypeOrProperty" value="    public static final int VISIBLE = 0x00000000; &#10;    public static final int INVISIBLE = 0x00000004; &#10;    public static final int GONE = 0x00000008;&#10;&#10;    @IntDef({VISIBLE, INVISIBLE, GONE})&#10;    public @interface Visibility {}&#10;&#10;    public void setVisibility(@Visibility int visibility) {&#10;        this.visibility = visibility;&#10;    }" description="Shows fixed suggestion in method taking params." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilViewModel" value="//for Activity&#10;MyViewModel model = new ViewModelProvider(this).get(MyViewModel.class);&#10;//for Fragment&#10;MyViewModel model = new ViewModelProvider(requireActivity()).get(MyViewModel.class);&#10;&#10;        model.getUsers().observe(this, users -&gt; {&#10;            // update UI&#10;        });&#10;&#10;public class MyViewModel extends ViewModel {&#10;    private MutableLiveData&lt;List&lt;User&gt;&gt; users;&#10;    public LiveData&lt;List&lt;User&gt;&gt; getUsers() {&#10;        if (users == null) {&#10;            users = new MutableLiveData&lt;List&lt;User&gt;&gt;();&#10;            loadUsers();&#10;        }&#10;        return users;&#10;    }&#10;&#10;    private void loadUsers() {&#10;        // Do an asynchronous operation to fetch users.&#10;    }&#10;}" description="Create ViewModel class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilEnumDataHolder" value="public enum DataHolder {&#10;    instance;&#10;&#10;    private ArrayList&lt;YTVideoModel&gt; playList;&#10;&#10;    public static ArrayList&lt;YTVideoModel&gt; getPlayList() {&#10;        return instance.playList;&#10;    }&#10;&#10;    public static void setPlayList(ArrayList&lt;YTVideoModel&gt; playList) {&#10;        instance.playList = playList;&#10;    }&#10;}" description="create DataHolder class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilTimeTracker" value="public class TimeTracker {&#10;    private static final String TAG = &quot;TimeTracker&quot;;&#10;    public static TimeFormat showTimeFormat = TimeFormat.SHOW_IN_MILLIS;&#10;&#10;    public static void startTracking(String processName) {&#10;        process.put(processName, currentTimeMillis());&#10;    }&#10;&#10;    public static void endTracking(String processName) {&#10;        if (process != null &amp;&amp; process.containsKey(processName) &amp;&amp; processName != null) {&#10;            long netStopTime = System.currentTimeMillis();&#10;            Long startTrackingTime = process.get(processName);&#10;            if (startTrackingTime != null) {&#10;                long netDiffInMill = netStopTime - startTrackingTime;&#10;                logTime(processName, netDiffInMill);&#10;            } else {&#10;                Log.d(TAG, processName + &quot; does'nt start, Please start first&quot;);&#10;            }&#10;        } else {&#10;            Log.d(TAG, processName + &quot; does'nt start, Please start first&quot;);&#10;        }&#10;    }&#10;&#10;    private static void logTime(String processName, long netDiffInMill) {&#10;        long seconds;&#10;        String timeFormat;&#10;        switch (showTimeFormat){&#10;            case SHOW_IN_HOURS:&#10;                seconds = TimeUnit.MILLISECONDS.toHours(netDiffInMill);&#10;                timeFormat = &quot; hours&quot;;&#10;                break;&#10;            case SHOW_IN_MINUTE:&#10;                seconds = TimeUnit.MILLISECONDS.toMinutes(netDiffInMill);&#10;                timeFormat = &quot; minutes&quot;;&#10;                break;&#10;            case SHOW_IN_SECONDS:&#10;                seconds = TimeUnit.MILLISECONDS.toSeconds(netDiffInMill);&#10;                timeFormat = &quot; seconds&quot;;&#10;                break;&#10;            case SHOW_IN_MICROS:&#10;                seconds = TimeUnit.MILLISECONDS.toMicros(netDiffInMill);&#10;                timeFormat = &quot; micros&quot;;&#10;                break;&#10;            case HOW_IN_NANOS:&#10;                seconds = TimeUnit.MILLISECONDS.toNanos(netDiffInMill);&#10;                timeFormat = &quot; nanos&quot;;&#10;                break;&#10;            case SHOW_IN_MILLIS:&#10;            default:&#10;                timeFormat = &quot; millis&quot;;&#10;                seconds = TimeUnit.MILLISECONDS.toMillis(netDiffInMill);&#10;        }&#10;        Log.d(TAG, processName + &quot; time taken: &quot; + seconds + timeFormat);&#10;    }&#10;&#10;    public static long currentTimeMillis() {&#10;        return System.currentTimeMillis();&#10;    }&#10;&#10;&#10;    private static HashMap&lt;String, Long&gt; process = new HashMap&lt;&gt;();&#10;&#10;    public enum TimeFormat{&#10;        SHOW_IN_HOURS, SHOW_IN_MINUTE, SHOW_IN_SECONDS, SHOW_IN_MILLIS, SHOW_IN_MICROS, HOW_IN_NANOS,&#10;    }&#10;}" description="Create TimeTracker class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilRemoveFromList" value="mList.remove(position);&#10;notifyItemRemoved(position);&#10;notifyItemRangeChanged(position, getItemCount());" description="remove item form recyclarView" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilSetColorFilter" value="// setColorFilter(viewHolder.itemView.getBackground(), R.color.color1);&#10;@SuppressWarnings(&quot;deprecation&quot;)&#10;public static void setColorFilter(@NonNull Drawable drawable, int color) {&#10;    if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.Q) {&#10;        drawable.setColorFilter(new BlendModeColorFilter(color, BlendMode.SRC_ATOP));&#10;    } else {&#10;        drawable.setColorFilter(color, PorterDuff.Mode.SRC_ATOP);&#10;    }&#10;}" description="apply color filter on custom background" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilViewModelUsegeMethods" value="private ViewModelProvider.Factory viewModelFactory;&#10;&#10;private TestViewModel activityViewModel;&#10;private TestViewModel viewModel;&#10;private TestViewModel parentViewModel;&#10;&#10;@Override&#10;public void onCreate(@Nullable Bundle savedInstanceState) {&#10;    super.onCreate(savedInstanceState);&#10;&#10;    activityViewModel = new ViewModelProvider(&#10;            requireActivity().getViewModelStore(),&#10;            viewModelFactory&#10;        )&#10;        .get(TestViewModel.class);&#10;    viewModel = new ViewModelProvider(&#10;            requireParentFragment().getViewModelStore(), &#10;            viewModelFactory&#10;        )&#10;        .get(TestViewModel.class);&#10;    parentViewModel = new ViewModelProvider(&#10;            getViewModelStore(),&#10;            viewModelFactory&#10;        )&#10;        .get(TestViewModel.class);&#10;}" description="new code older method was depricated" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilTurnOnStrictMode" value="    private void turnOnStrictMode() {&#10;        if (BuildConfig.DEBUG) {&#10;            StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()&#10;                    .detectDiskReads()&#10;                    .detectDiskWrites()&#10;                    .detectNetwork()   // or .detectAll() for all detectable problems&#10;                    .penaltyLog()&#10;                    .build());&#10;            StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()&#10;                    .detectLeakedSqlLiteObjects()&#10;                    .detectLeakedClosableObjects()&#10;                    .penaltyLog()&#10;                    .build());&#10;        }&#10;    }" description="Call before super.onCreate(); in Application class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilSetGradDrawableColor" value="    //holder.llCard.setBackground(getGradDrawable(position));&#10;    private Drawable getGradDrawable(int position) {&#10;        GradientDrawable gd = new GradientDrawable(&#10;                GradientDrawable.Orientation.LEFT_RIGHT,&#10;                new int[]{&#10;                        Color.parseColor(getColorPrimary(position))&#10;                        , Color.parseColor(getColorSecondary(position))&#10;                });&#10;        gd.setCornerRadius(16f);&#10;        return gd;&#10;    }&#10; &#10;&#10;    private String getColorPrimary(int i) {&#10;        if(i % 8 == 0) {&#10;            return &quot;#FEC194&quot;;&#10;        } else if(i == 1 || (i-1) % 8 == 0) {&#10;            return &quot;#00FBAB&quot;;&#10;        } else if(i == 2 || (i-2) % 8 == 0) {&#10;            return &quot;#1FC9FD&quot;;&#10;        } else if(i == 3 || (i-3) % 8 == 0) {&#10;            return &quot;#9F2DDE&quot;;&#10;        } else if(i == 4 || (i-4) % 8 == 0) {&#10;            return &quot;#FFE35B&quot;;&#10;        } else if(i == 5 || (i-5) % 8 == 0) {&#10;            return &quot;#02BBFC&quot;;&#10;        } else if(i == 6 || (i-6) % 8 == 0) {&#10;            return &quot;#2CE0A3&quot;;&#10;        } else if(i == 7 || (i-7) % 8 == 0) {&#10;            return &quot;#FA0B70&quot;;&#10;        } else {&#10;            return &quot;#FEC194&quot;;&#10;        }&#10;    }&#10;&#10;    private String getColorSecondary(int i) {&#10;        if(i % 8 == 0) {&#10;            return &quot;#FF0060&quot;;&#10;        } else if(i == 1 || (i-1) % 8 == 0) {&#10;            return &quot;#0D4FFE&quot;;&#10;        } else if(i == 2 || (i-2) % 8 == 0) {&#10;            return &quot;#F50564&quot;;&#10;        } else if(i == 3 || (i-3) % 8 == 0) {&#10;            return &quot;#1269D2&quot;;&#10;        } else if(i == 4 || (i-4) % 8 == 0) {&#10;            return &quot;#FF2A26&quot;;&#10;        } else if(i == 5 || (i-5) % 8 == 0) {&#10;            return &quot;#3F20BC&quot;;&#10;        } else if(i == 6 || (i-6) % 8 == 0) {&#10;            return &quot;#116ECF&quot;;&#10;        } else if(i == 7 || (i-7) % 8 == 0) {&#10;            return &quot;#881B84&quot;;&#10;        } else {&#10;            return &quot;#FF0060&quot;;&#10;        }&#10;    }" description="set slot background drawable shape" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilMethodDeprecated" value="/**&#10; * @deprecated  As of release 1.5, replaced by {@link #getUriFromFile(Context, File)}&#10; */&#10;@Deprecated" description="making method is deprecated" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilDeprecated" value="/**&#10; * @deprecated Use {@link AdsSDK#isAdsEnable()} directly.&#10; */&#10;@Deprecated" description="Making method deprecated" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
