@@ -79,7 +79,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="utilSerializedAlternateName" value="@Expose&#10;@SerializedName(value=&quot;item_type&quot;, alternate={&quot;item_type&quot;, &quot;category_type&quot;})" description="Adding GSON property SerializedName with alternate option" toReformat="false" toShortenFQNames="true">
+  <template name="utilSerializedAlternateName" value="@Expose&#10;@SerializedName(value=&quot;key_1&quot;, alternate={&quot;key_2&quot;})" description="Adding GSON property SerializedName with alternate option" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
