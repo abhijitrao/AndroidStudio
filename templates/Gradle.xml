@@ -44,4 +44,5 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="gdlEnablePSVM" value=" &lt;option name=&quot;delegatedBuild&quot; value=&quot;false&quot; /&gt;" description="Add the following line before &lt;/GradleProjectSettings/&gt; path//.idea/gradle.xml" toReformat="false" toShortenFQNames="true" />
 </templateSet>

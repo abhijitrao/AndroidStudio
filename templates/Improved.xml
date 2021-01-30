@@ -1,0 +1,12 @@
+<templateSet group="Improved">
+  <template name="psvmLog" value="public static void main(String[] args) {&#10;    System.out.println(&quot;Hello world&quot;);&#10;}" description="Executing Code Blocks" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psvmSetting" value="//Add the following line before &lt;/GradleProjectSettings/&gt;&#10;//Path: .idea/gradle.xml&#10; &lt;option name=&quot;delegatedBuild&quot; value=&quot;false&quot; /&gt;" description="Executing Code Blocks setting" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
