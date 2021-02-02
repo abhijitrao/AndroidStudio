@@ -3,7 +3,7 @@
     <property name="created">2021-01-30T10:50:34</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">4.1.2.0</property>
-    <property name="modified">2021-01-30T13:51:29</property>
+    <property name="modified">2021-02-02T13:46:55</property>
     <property name="originalScheme">IntelliJ Light</property>
   </metaInfo>
   <colors>
@@ -296,7 +296,7 @@
     </option>
     <option name="LOGCAT_DEBUG_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="4caf50" />
+        <option name="FOREGROUND" value="4af2a" />
       </value>
     </option>
     <option name="LOGCAT_ERROR_OUTPUT">
