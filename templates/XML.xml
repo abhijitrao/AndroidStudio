@@ -29,7 +29,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="xmlRecyclarViewListItems" value="tools:listitem=&quot;@layout/first_item_layout&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="xmlRecyclarViewListItems" value="tools:listitem=&quot;@layout/first_item_layout&quot;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
