@@ -79,4 +79,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denActivityTrackingApplication" value="&#10;import android.app.Activity;&#10;import android.app.Application;&#10;import android.os.Bundle;&#10;import android.util.Log;&#10;&#10;import androidx.annotation.NonNull;&#10;import androidx.annotation.Nullable;&#10;&#10;&#10;public abstract class ActivityTrackingApplication extends Application implements Application.ActivityLifecycleCallbacks {&#10;&#10;    private final String TAG = ActivityTrackingApplication.class.getSimpleName();&#10;&#10;    public abstract boolean isDebugMode();&#10;&#10;    @Override&#10;    public void onCreate() {&#10;        super.onCreate();&#10;        if (isDebugMode()) {&#10;            registerActivityLifecycleCallbacks(this);&#10;        }&#10;    }&#10;&#10;    @Override&#10;    public void onActivityCreated(@NonNull Activity activity, @Nullable Bundle savedInstanceState) {&#10;        Log.d(TAG, activity.getClass().getSimpleName());&#10;    }&#10;&#10;    @Override&#10;    public void onActivityStarted(@NonNull Activity activity) {&#10;&#10;    }&#10;&#10;    @Override&#10;    public void onActivityResumed(@NonNull Activity activity) {&#10;&#10;    }&#10;&#10;    @Override&#10;    public void onActivityPaused(@NonNull Activity activity) {&#10;&#10;    }&#10;&#10;    @Override&#10;    public void onActivityStopped(@NonNull Activity activity) {&#10;&#10;    }&#10;&#10;    @Override&#10;    public void onActivitySaveInstanceState(@NonNull Activity activity, @NonNull Bundle outState) {&#10;&#10;    }&#10;&#10;    @Override&#10;    public void onActivityDestroyed(@NonNull Activity activity) {&#10;&#10;    }&#10;}" description="Create Class ActivityTrackingApplication" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
