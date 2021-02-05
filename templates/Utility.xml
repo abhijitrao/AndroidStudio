@@ -175,4 +175,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="utilAttachListener" value="@Override&#10;public void onAttach(Context context) {&#10;    super.onAttach(context);&#10;    if (context instanceof AppCallback.OnViewMoreListener) {&#10;        mListener = (AppCallback.OnViewMoreListener) context;&#10;    }&#10;}" description="Allach listener in fragment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
