@@ -84,4 +84,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denAddListenerSdk" value="private final ArrayList&lt;PDFCallback.StatsListener&gt; mStatsCallbacks = new ArrayList&lt;&gt;();&#10;&#10;public PDFViewer addStatisticsCallbacks(PDFCallback.StatsListener callback) {&#10;    synchronized (mStatsCallbacks) {&#10;        mStatsCallbacks.add(callback);&#10;    }&#10;    return this;&#10;}&#10;&#10;public void removeStatisticsCallbacks(PDFCallback.StatsListener callback) {&#10;    synchronized (mStatsCallbacks) {&#10;        mStatsCallbacks.remove(callback);&#10;    }&#10;}&#10;&#10;public void dispatchStatsUpdated() {&#10;    for (PDFCallback.StatsListener callback : mStatsCallbacks) {&#10;        callback.onStatsUpdated();&#10;    }&#10;}" description="add Arraylist of listener in Application or Sdk class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
