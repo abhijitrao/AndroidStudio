@@ -89,4 +89,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denKeyboardHideShow" value="public static void showKeyboard(View view) {&#10;    try {&#10;        if (view != null &amp;&amp; view.requestFocus()) {&#10;            InputMethodManager imm = (InputMethodManager)&#10;                    view.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);&#10;            if(imm!=null) {&#10;                imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);&#10;            }&#10;        }&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;    }&#10;}&#10;public static void hideKeyboard(Activity activity) {&#10;    try {&#10;        if(activity != null) {&#10;            InputMethodManager imm = (InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE);&#10;            View f = activity.getCurrentFocus();&#10;            if (null != f &amp;&amp; null != f.getWindowToken() &amp;&amp; EditText.class.isAssignableFrom(f.getClass()))&#10;                imm.hideSoftInputFromWindow(f.getWindowToken(), 0);&#10;            else&#10;                activity.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);&#10;        }&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;    }&#10;}" description="Keyboard hide and show methods" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
