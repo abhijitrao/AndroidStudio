@@ -34,4 +34,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlSplashDrawable" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item&gt;&#10;        &lt;color android:color=&quot;@color/colorPrimary&quot; /&gt;&#10;    &lt;/item&gt;&#10;    &lt;item&gt;&#10;        &lt;bitmap&#10;            android:gravity=&quot;center&quot;&#10;            android:src=&quot;@drawable/logo&quot; /&gt;&#10;    &lt;/item&gt;&#10;&lt;/layer-list&gt;" description="Splash drawable code logo center inside" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
