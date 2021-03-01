@@ -94,4 +94,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denConfigNetworkListener" value="private void loadDataFromServer() {&#10;&#9;if (!MCQUtil.isConnected(activity)) {&#10;&#9;&#9;MCQUtil.showNoData(viewNoData, View.VISIBLE);&#10;&#9;&#9;if (MCQSdk.getInstance().getConfigManager() != null)&#10;&#9;&#9;&#9;MCQSdk.getInstance().getConfigManager().getNetworkMonitor().setConnectivityListener(this.hashCode(), new ConnectivityListener() {&#10;&#9;&#9;&#9;&#9;@Override&#10;&#9;&#9;&#9;&#9;public void onNetworkStateChanged(boolean isConfigLoaded, boolean isConnected) {&#10;&#9;&#9;&#9;&#9;&#9;if (isConfigLoaded &amp;&amp; isConnected) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;loadDataFromServer();&#10;&#9;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;&#9;}&#10;&#9;&#9;&#9;});&#10;&#9;} else {&#10;&#9;&#9;networkUtil.fetchUserPerformanceData(userId);&#10;&#9;}&#10;}&#10;&#10;@Override&#10;public void onDestroy() {&#10;&#9;super.onDestroy();&#10;&#9;if (MCQSdk.getInstance().getConfigManager() != null) {&#10;&#9;&#9;MCQSdk.getInstance().getConfigManager().getNetworkMonitor().removeConnectivityListener(this.hashCode());&#10;&#9;}&#10;}" description="add network change listener before API call request" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
