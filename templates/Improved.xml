@@ -9,4 +9,19 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="maniActivityConfigCahnges" value="android:configChanges=&quot;orientation|screenSize&quot;" description="smooth screen rotation without recreate actiivty" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="maniUsesCleartextTraffic" value="android:usesCleartextTraffic=&quot;true&quot;" description="For allow http requests" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="maniLegacyExternalStorage" value="android:requestLegacyExternalStorage=&quot;true&quot;" description="allow storage in API 29" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
