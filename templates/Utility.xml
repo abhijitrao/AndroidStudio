@@ -180,7 +180,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="utilInterfaceRetention" value="//Useage : function(@Response.Visibility int visibility)&#10;@Retention(RetentionPolicy.SOURCE)&#10;@IntDef({ContentMode.OFFLINE, ContentMode.ONLINE})&#10;public @interface ContentMode {&#10;    int OFFLINE = 1;&#10;    int ONLINE = 2;&#10;}" description="Create Retention interface for restrict selection of prams" toReformat="false" toShortenFQNames="true">
+  <template name="utilInterfaceRetention" value="//Useage : function(@Response.Visibility int visibility)&#10;@IntDef({ContentMode.OFFLINE, ContentMode.ONLINE})&#10;@Retention(RetentionPolicy.SOURCE)&#10;public @interface ContentMode {&#10;    int OFFLINE = 1;&#10;    int ONLINE = 2;&#10;}" description="Create Retention interface for restrict selection of prams" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
