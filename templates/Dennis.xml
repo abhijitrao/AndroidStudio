@@ -109,4 +109,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denGetInstanceMethod" value="@SuppressLint(&quot;StaticFieldLeak&quot;)&#10;private static AppStatsManager sSoleInstance;&#10;&#10;private AppStatsManager(Context context) {&#10;    this.context = context;&#10;}&#10;&#10;public static AppStatsManager getInstance(Context context) {&#10;    if (sSoleInstance == null) {&#10;        synchronized (AppStatsManager.class) {&#10;            if (sSoleInstance == null) sSoleInstance = new AppStatsManager(context);&#10;        }&#10;    }&#10;    return sSoleInstance;&#10;}" description="Create getInstance method under class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
