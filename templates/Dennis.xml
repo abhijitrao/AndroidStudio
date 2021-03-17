@@ -119,4 +119,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denMenuSearchViewClickListener" value="    @Override&#10;    public boolean onCreateOptionsMenu(Menu menu) {&#10;        getMenuInflater().inflate(R.menu.share_filter, menu);&#10;        MenuItem searchViewItem = menu.findItem(R.id.app_bar_search);&#10;        final SearchView searchView = (SearchView) searchViewItem.getActionView();&#10;        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {&#10;            @Override&#10;            public boolean onQueryTextSubmit(String query) {&#10;                searchView.clearFocus();&#10;                return false;&#10;            }&#10;&#10;            @Override&#10;            public boolean onQueryTextChange(String newText) {&#10;                adapter.setFilterType(mFilterType);&#10;                adapter.setSearchQuery(newText);&#10;                adapter.getFilter().filter(newText);&#10;                return false;&#10;            }&#10;        });&#10;        return true;&#10;    }" description="Actionbar SearchView click listener" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
