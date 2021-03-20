@@ -59,4 +59,19 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlShapeCircle" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    android:shape=&quot;oval&quot;&gt;&#10;&#10;    &lt;solid android:color=&quot;#0D4DA4&quot;/&gt;&#10;&#10;    &lt;stroke android:color=&quot;#0D4DA4&quot;&#10;        android:width=&quot;1dp&quot;/&gt;&#10;&lt;/shape&gt;" description="Create circle drawable file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlShapeSemiArc2" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layer-list  xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item&#10;        android:left=&quot;-200dp&quot;&#10;        android:right=&quot;-200dp&quot;&#10;        android:top=&quot;100dp&quot;&#10;        android:bottom=&quot;-300dp&quot;&gt;&#10;        &lt;shape&#10;            android:shape=&quot;oval&quot;&gt;&#10;&#10;            &lt;solid android:color=&quot;@color/themeBackgroundCardColor&quot; /&gt;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;&lt;/layer-list&gt;" description="Create Semi Arc 2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlShapeSemiArc1" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layer-list  xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item&gt;&#10;        &lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;            android:shape=&quot;rectangle&quot;&gt;&#10;            &lt;solid android:color=&quot;#FFFFFF&quot; /&gt;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;    &lt;item&#10;        android:bottom=&quot;410dp&quot;&#10;        android:left=&quot;-100dp&quot;&#10;        android:right=&quot;-100dp&quot;&#10;        android:top=&quot;-300dp&quot;&gt;&#10;        &lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;            android:shape=&quot;oval&quot;&gt;&#10;&#10;            &lt;solid android:color=&quot;#7181A1&quot; /&gt;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;&lt;/layer-list&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
