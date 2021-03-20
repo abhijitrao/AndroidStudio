@@ -44,4 +44,14 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlDynamicString" value="%1$s" description="%1$s" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlDynamicInteger" value="%1$d" description="%1$d" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
