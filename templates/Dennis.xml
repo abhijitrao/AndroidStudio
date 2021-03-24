@@ -104,7 +104,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="denModelToJsonMethod" value="public String toJson(boolean excludeFieldsWithoutExposeAnnotation) {&#10;    if(excludeFieldsWithoutExposeAnnotation){&#10;        return GsonParser.toJson(this, new TypeToken&lt;AppStatsResponse&gt;() {});&#10;    }else {&#10;        return GsonParser.getGson().toJson(this, AppStatsResponse.class);&#10;    }&#10;}" description="Create toJson method in model class" toReformat="false" toShortenFQNames="true">
+  <template name="denModelToJsonMethod" value="public String toJson(boolean excludeFieldsWithoutExposeAnnotation) {&#10;    if(excludeFieldsWithoutExposeAnnotation){&#10;        return GsonParser.toJson(this, new TypeToken&lt;ModelName&gt;() {});&#10;    }else {&#10;        return GsonParser.getGson().toJson(this, ModelName.class);&#10;    }&#10;}" description="Create toJson method in model class" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
