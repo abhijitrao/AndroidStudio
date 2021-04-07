@@ -139,4 +139,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denCreateMenuInActivity" value="@Override&#10;public boolean onCreateOptionsMenu(Menu menu) { &#10;    getMenuInflater().inflate(R.menu.menu_main, menu);&#10;    return true;&#10;}&#10;&#10;@Override&#10;public boolean onOptionsItemSelected(MenuItem item) {&#10;    int itemId = item.getItemId();&#10;    if (itemId == android.R.id.home) {&#10;        onBackPressed();&#10;        finish();&#10;    } else if (itemId == R.id.action_share) {&#10;        SupportUtil.share(&quot;&quot;, this);&#10;    } else if (itemId == R.id.action_rateUs) {&#10;        SupportUtil.rateUs(this);&#10;    }&#10;    return super.onOptionsItemSelected(item);&#10;}" description="Create menu methods in Activity class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
