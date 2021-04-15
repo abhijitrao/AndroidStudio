@@ -144,4 +144,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denReflectionMethodCall" value="public void callMethodByReflection(Object obj){&#10;    try {&#10;        Class&lt;?&gt; objClass = obj.getClass();&#10;&#10;        Field[] fields = objClass.getFields();&#10;        Method[] methods = objClass.getDeclaredMethods();&#10;        Method m = objClass.getMethod(&quot;getAppStatistics&quot;);&#10;        Object mData = m.invoke(obj);&#10;    } catch (SecurityException e) {&#10;        e.printStackTrace();&#10;        Log.d(&quot;@Test&quot;,e.toString());&#10;    } catch (IllegalAccessException e) {&#10;        e.printStackTrace();&#10;        Log.d(&quot;@Test&quot;,e.toString());&#10;    } catch (Exception e) {&#10;        e.printStackTrace();&#10;        Log.d(&quot;@Test&quot;,e.toString());&#10;    }&#10;}" description="Reflection Method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="denReflectionMethodCall2" value="private void callMethodByReflection(){&#10;    try {&#10;        Method method = HomeListData.class.getMethod(&quot;methodName&quot;);&#10;        Object o = method.invoke(null);&#10;        if (o instanceof Collection&lt;?&gt;) {&#10;            List list = (List) o;&#10;            if (list.size() &gt; 0 &amp;&amp; list.get(0) instanceof ClassModel) {&#10;                for (Object classModel : list) {&#10;                    if (classModel instanceof ClassModel) {&#10;                        classModels.add((ClassModel) classModel);&#10;                    }&#10;                }&#10;            }&#10;        }&#10;    } catch (NoSuchMethodException e) {&#10;        e.printStackTrace();&#10;    } catch (IllegalAccessException e) {&#10;        e.printStackTrace();&#10;    } catch (InvocationTargetException e) {&#10;        e.printStackTrace();&#10;    }finally {&#10;        if ( classModels == null || classModels.size() &lt; 1 ){&#10;            Toast.makeText(this,&quot;Function Not Found&quot;,Toast.LENGTH_SHORT).show();&#10;            finish();&#10;        }&#10;    }&#10;}" description="Reflection method find List" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
