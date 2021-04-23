@@ -79,4 +79,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlCardView" value="&lt;androidx.cardview.widget.CardView &#10;    xmlns:card_view=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:layout_margin=&quot;5dp&quot;&#10;    card_view:cardCornerRadius=&quot;8dp&quot;&#10;    card_view:cardElevation=&quot;4dp&quot;&gt;&#10;    &#10;&lt;/androidx.cardview.widget.CardView&gt;" description="Create CardView" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
