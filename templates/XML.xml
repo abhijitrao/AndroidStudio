@@ -84,4 +84,14 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlPadding" value="android:paddingTop=&quot;4dp&quot;&#10;android:paddingBottom=&quot;4dp&quot;&#10;android:paddingLeft=&quot;4dp&quot;&#10;android:paddingRight=&quot;4dp&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlMargin" value="android:layout_marginTop=&quot;4dp&quot;&#10;android:layout_marginBottom=&quot;4dp&quot;&#10;android:layout_marginLeft=&quot;4dp&quot;&#10;android:layout_marginRight=&quot;4dp&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
