@@ -74,7 +74,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="xmlShapeRectangle" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    android:shape=&quot;rectangle&quot;&gt;&#10;&#10;    &lt;solid android:color=&quot;#A2BFE6&quot;/&gt;&#10;&#10;    &lt;stroke android:color=&quot;#0D4DA4&quot;&#10;        android:width=&quot;1dp&quot;/&gt;&#10;&#10;    &lt;corners android:radius=&quot;8dp&quot;/&gt;&#10;&lt;/shape&gt;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="xmlShapeRectangle" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    android:shape=&quot;rectangle&quot;&gt;&#10;&#10;    &lt;solid android:color=&quot;#A2BFE6&quot;/&gt;&#10;&#10;    &lt;stroke android:color=&quot;#0D4DA4&quot;&#10;        android:width=&quot;1dp&quot;/&gt;&#10;&#10;    &lt;corners android:radius=&quot;8dp&quot;/&gt;&#10;    &#10;    &lt;padding&#10;        android:top=&quot;2dp&quot;&#10;        android:bottom=&quot;4dp&quot;&#10;        android:left=&quot;8dp&quot;&#10;        android:right=&quot;8dp&quot;/&gt;&#10;&lt;/shape&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
