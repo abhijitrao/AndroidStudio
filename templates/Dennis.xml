@@ -164,4 +164,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denGsonModelFromJson" value="public &lt;T&gt; T fromJson(Class&lt;T&gt; classOfT) {&#10;    return GsonParser.getGson().fromJson(otherProperties, classOfT);&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="denGsonModelToJson" value="public String toJson(boolean excludeFieldsWithoutExposeAnnotation) {&#10;    if(excludeFieldsWithoutExposeAnnotation){&#10;        return GsonParser.toJson(this, new TypeToken&lt;ModelName&gt;() {});&#10;    }else {&#10;        return GsonParser.getGson().toJson(this, ModelName.class);&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
