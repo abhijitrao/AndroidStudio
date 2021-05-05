@@ -174,4 +174,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denListSpanSizeLookup" value="GridLayoutManager layoutManager = new GridLayoutManager(context, 6);&#10;layoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {&#10;    @Override&#10;    public int getSpanSize(int pos) {&#10;        return getSpanCount(getAdapterPosition(), pos);&#10;    }&#10;});&#10;&#10;private int getSpanCount(int parentPos, int pos) {&#10;    if(getSubItemCount(parentPos) == 1){&#10;        return 6;&#10;    }else if(getSubItemCount(parentPos) == 2){&#10;        return 3;&#10;    }&#10;    return 2;&#10;}" description="Customize List Layout Manager" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
