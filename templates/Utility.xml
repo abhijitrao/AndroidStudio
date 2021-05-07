@@ -190,4 +190,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="utilSetColorFilterStringColor" value="&#10;//  setColorFilter(holder.itemView.getBackground(), Color.parseColor(getColorValues(position)));&#10;    @SuppressWarnings(&quot;deprecation&quot;)&#10;    public static void setColorFilter(@NonNull Drawable drawable, int color) {&#10;        if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.Q) {&#10;            drawable.setColorFilter(new BlendModeColorFilter(color, BlendMode.SRC_ATOP));&#10;        } else {&#10;            drawable.setColorFilter(color, PorterDuff.Mode.SRC_ATOP);&#10;        }&#10;    }&#10;&#10;    private String getColorValues(int i) {&#10;        if (i % 8 == 0) {&#10;            return &quot;#FFF5DA&quot;;&#10;        } else if (i == 1 || (i - 1) % 8 == 0) {&#10;            return &quot;#DFEEFB&quot;;&#10;        } else if (i == 2 || (i - 2) % 8 == 0) {&#10;            return &quot;#D8FFFC&quot;;&#10;        } else if (i == 3 || (i - 3) % 8 == 0) {&#10;            return &quot;#F2EEFF&quot;;&#10;        } else if (i == 4 || (i - 4) % 8 == 0) {&#10;            return &quot;#FAFFD7&quot;;&#10;        } else if (i == 5 || (i - 5) % 8 == 0) {&#10;            return &quot;#E0F7FF&quot;;&#10;        } else if (i == 6 || (i - 6) % 8 == 0) {&#10;            return &quot;#2CE0A3&quot;;&#10;        } else if (i == 7 || (i - 7) % 8 == 0) {&#10;            return &quot;#FA0B70&quot;;&#10;        } else {&#10;            return &quot;#FFF5DA&quot;;&#10;        }&#10;    }" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
