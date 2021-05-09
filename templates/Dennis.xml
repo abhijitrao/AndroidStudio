@@ -179,7 +179,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="denCustomViewsClassTag" value="public class BottomBarCustom {&#10;&#10;    private final View[] graphic = new View[5];&#10;&#10;    public BottomBarCustom(Activity activity) {&#10;        View rootView = activity.getWindow().getDecorView().getRootView();&#10;        for (int i = 0; i &lt; graphic.length; i++){&#10;            graphic[i] = rootView.findViewWithTag(i + &quot;&quot;);&#10;        } &#10;    }&#10;&#10;    public void setSelection(int selection) {&#10;        for (int i = 0; i &lt; graphic.length; i++){&#10;            if(graphic[i] != null) {&#10;                graphic[i].setVisibility(i == selection ? View.VISIBLE : View.INVISIBLE);&#10;            }&#10;        }&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="denCustomViewsClassTag" value="public class BottomBarCustom {&#10;&#10;    private final View[] graphic = new View[5];&#10;&#10;    public BottomBarCustom(Activity activity) {&#10;        View rootView = activity.getWindow().getDecorView().getRootView();&#10;        for (int i = 0; i &lt; graphic.length; i++){&#10;            graphic[i] = rootView.findViewWithTag(i + &quot;&quot;);&#10;        } &#10;    }&#10;&#10;    public void setSelection(int selection) {&#10;        for (int i = 0; i &lt; graphic.length; i++){&#10;            if(graphic[i] != null) {&#10;                graphic[i].setVisibility(i == selection ? View.VISIBLE : View.INVISIBLE);&#10;            }&#10;        }&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
