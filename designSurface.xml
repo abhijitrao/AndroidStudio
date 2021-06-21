@@ -51,6 +51,10 @@
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item_top.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_top_view.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/menu/navitgation_home.xml" value="0.1" />
+        <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar.xml" value="0.1" />
+        <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar_custom.xml" value="0.2598958333333333" />
+        <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar_default.xml" value="0.1" />
+        <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/button_progress.xml" value="0.1" />
         <entry key="..\:/Workspace/DroidHelios/KotlinSample01/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Workspace/DroidHelios/browser/app/src/main/res/layout/activity_intent_open.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DroidHelios/browser/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
@@ -65,6 +69,8 @@
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_activity_frag_holder.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_activity_profile.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_profile_action_bar.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/login_progress_layout.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/ytplayer/ytplayer-sdk/src/main/res/layout/yt_activity_youtube_single_video.xml" value="0.1" />
         <entry key="..\:/Workspace/TestingSpace/AppSearchSample01/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/TestingSpace/AppSearchSample01/app/src/main/res/layout/activity_shortcut.xml" value="0.27395833333333336" />
