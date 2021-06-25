@@ -2,6 +2,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/gateexam/books/src/main/res/layout/activity_daily_update_full_des.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeleven/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeleventwelve/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
@@ -37,6 +38,9 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_home_page_self_study.xml" value="0.2675925925925926" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_home_page_self_study_exam.xml" value="0.1" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_neet_item.xml" value="0.21014492753623187" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/drawable/tl_bg_button.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/layout/tl_login_overlay.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/layout/tl_post_fragment_other_user_profile.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/defenceexams/res/menu/navitgation_home.xml" value="0.1" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/app_bar_home.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/content_home.xml" value="0.27395833333333336" />
@@ -72,8 +76,10 @@
         <entry key="..\:/Workspace/DroidHelios/browser/browser/src/main/res/layout/browser_layout_web_view.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DroidHelios/browser/browser/src/main/res/layout/layout_web_view.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/app/src/main/res/layout/activity_main.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/drawable/lib_bg_button.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_activity_frag_holder.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_activity_profile.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_not_login_overlay.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_profile_action_bar.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/login_progress_layout.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_mock_leaderboard_self_study.xml" value="0.27395833333333336" />
