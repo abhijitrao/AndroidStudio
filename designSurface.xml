@@ -29,12 +29,15 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/lib_profile_action_bar.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/activity_main2_drawer.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/app_menu_share.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/drawable/bg_updates_card_dash_line.xml" value="0.536" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/drawable/books_bg_action_bar.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_activity_classes.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_activity_fragment_mapping.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_activity_subjects.xml" value="0.21467391304347827" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_fragment_subject.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_layout_no_data.xml" value="0.21014492753623187" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/daily_update_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/daily_update_list_self_study.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/drawable/bg_self_study_home_slot_circle.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/drawable/bg_self_study_home_slot_rounded.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/st_item_gradient_grid.xml" value="0.4" />
