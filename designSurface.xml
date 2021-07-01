@@ -67,6 +67,7 @@
         <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/layout/tl_login_overlay.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/layout/tl_post_fragment_other_user_profile.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/defenceexams/res/menu/navitgation_home.xml" value="0.1" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/drawable/circle_red.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/activity_category.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/app_bar_home.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/content_editorial_bottom_sheet.xml" value="0.27395833333333336" />
@@ -83,6 +84,7 @@
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkhindi/res/layout/content_home.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkhindi/res/layout/menu_imp_update.xml" value="0.1" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkhindi/res/menu/home_menu.xml" value="0.1" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gksscexam/res/layout/menu_imp_update.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_category.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_category_header.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_classes.xml" value="0.26974358974358975" />
@@ -100,11 +102,13 @@
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/item_list_image_text.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/layout_article_list.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/layout_desc_item.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/menu_imp_update.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item_state_gk.xml" value="0.23324275362318841" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item_top.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_top_view.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/menu/home_menu_ssc.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/menu/navitgation_home.xml" value="0.1" />
         <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar.xml" value="0.1" />
         <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar_custom.xml" value="0.2598958333333333" />
