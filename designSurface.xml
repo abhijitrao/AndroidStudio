@@ -2,7 +2,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_mobile.xml" value="0.1" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_mobile.xml" value="0.22" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_signup_mobile.xml" value="0.22" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/gateexam/books/src/main/res/layout/activity_daily_update_full_des.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeleven/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
