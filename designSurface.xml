@@ -18,6 +18,7 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/drawable/bg_user_profile_leaderboard.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/drawable/lib_bg_circle_green.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/activity_main.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/activity_splash.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/app_bar_main.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/content_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/content_profile_action_bar.xml" value="0.27395833333333336" />
@@ -27,10 +28,13 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/lib_activity_profile.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/lib_content_profile.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/lib_profile_action_bar.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/nav_header_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/slot_home.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/activity_main2_drawer.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/app_menu_share.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/drawable/bg_updates_card_dash_line.xml" value="0.536" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/drawable/books_bg_action_bar.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/activity_daily_update_full_des.xml" value="0.25833333333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_activity_classes.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_activity_fragment_mapping.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_activity_subjects.xml" value="0.21467391304347827" />
@@ -38,42 +42,81 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_layout_no_data.xml" value="0.21014492753623187" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_list_subects.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/books_list_subects_self_study.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/content_notification.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/daily_update_list.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/daily_update_list_self_study.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/fragment_notification.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/notification_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/notification_list_self_study.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/drawable/bg_self_study_home_slot_circle.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/drawable/bg_self_study_home_slot_rounded.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/st_item_gradient_grid.xml" value="0.4" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/st_item_list_dpp.xml" value="0.21014492753623187" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_fragment.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_fragment_exam_selection_self_study.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_layout_no_data.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_board_item.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_exam_category_self_study.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_exam_sub_item_self_study.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_exam_sub_item_self_study_category.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_exam_sub_item_self_study_horizontal.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_home_page.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_home_page_exam.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_home_page_self_study.xml" value="0.2675925925925926" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_home_page_self_study_exam.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/study/src/main/res/layout/study_slot_neet_item.xml" value="0.21014492753623187" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2018/mocker/app/src/main/res/layout/activity_calender.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/drawable/tl_bg_button.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/layout/tl_login_overlay.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/Whiteboardandroid/timline/src/main/res/layout/tl_post_fragment_other_user_profile.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/defenceexams/res/menu/navitgation_home.xml" value="0.1" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/drawable/circle_red.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/activity_category.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/app_bar_home.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/content_editorial_bottom_sheet.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/content_home.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/item_article.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/item_article_more.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/item_grid.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/item_list_image_text.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/layout_article_list.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/layout_desc_item.xml" value="0.26666666666666666" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/layout/menu_imp_update.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/menu/home_menu.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkenglish/res/menu/navitgation_home.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkhindi/res/layout/content_home.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkhindi/res/layout/menu_imp_update.xml" value="0.1" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gkhindi/res/menu/home_menu.xml" value="0.1" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gksscexam/res/layout/menu_imp_update.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/gksscteaching/res/menu/navitgation_home.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/drawable/bg_circle_calender_selected_date.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_calender.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_category.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_category_header.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_classes.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_home.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/activity_subjects.xml" value="0.13323201621073963" />
-        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/app_bar_home.xml" value="0.13323201621073963" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/adapter_notification_list.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/app_bar_home.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/content_editorial_bottom_sheet.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/content_home.xml" value="0.13323201621073963" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/dialog_word_meaning.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/fragment_home_page.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/fragment_multi_article_view.xml" value="0.26666666666666666" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/item_article.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/item_article_more.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/item_grid.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/item_list_image_text.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/layout_article_list.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/layout_desc_item.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/menu_imp_update.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item_state_gk.xml" value="0.23324275362318841" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_sub_item_top.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/layout/slot_home_page_top_view.xml" value="0.26974358974358975" />
-        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/menu/navitgation_home.xml" value="0.1" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/menu/home_menu_ssc.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspase2019/gkcurrentaffairs/app/src/main/res/menu/navitgation_home.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar.xml" value="0.1" />
         <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar_custom.xml" value="0.2598958333333333" />
         <entry key="..\:/Workspace/DroidHelios/CoreLib/corelib/src/main/res/layout/action_bar_default.xml" value="0.1" />
@@ -108,9 +151,13 @@
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_result.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_result_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_result_self_study.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_without_swipe.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_without_swipe_gk.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_without_swipe_self_study.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/ytplayer/ytplayer-sdk/src/main/res/layout/yt_activity_youtube_single_video.xml" value="0.1" />
         <entry key="..\:/Workspace/SampleProjects/VideoPlayer/MagicalExoPlayer/app/src/main/res/layout/activity_main_kotlin.xml" value="0.25833333333333336" />
+        <entry key="..\:/Workspace/SampleSpace/CodePlayGround/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/TestingSpace/AppSearchSample01/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/TestingSpace/AppSearchSample01/app/src/main/res/layout/activity_shortcut.xml" value="0.27395833333333336" />
       </map>
