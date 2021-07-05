@@ -2,6 +2,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/drawable/bg_circle_success.xml" value="0.21458333333333332" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/drawable/from_parent_backgroung.xml" value="0.21458333333333332" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_booking_history.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_booking_success.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_booking_summary.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_doctor_list.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_doctor_profile.xml" value="0.19641025641025642" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_doctor_search.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_invoice_view.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_live_class.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_main.xml" value="0.19641025641025642" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_splash.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_youtube_player.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/app_bar_home.xml" value="0.19641025641025642" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/content_home.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/content_youtube_player.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/fragment_doctor_slot_view.xml" value="0.19641025641025642" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/slot_doctor_search.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/yt_action_bar.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/drawable/bg_circle_success.xml" value="0.21458333333333332" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/activity_profile.xml" value="0.19641025641025642" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/dialog_registration_successful.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_action_bar.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_mobile.xml" value="0.22" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_signup_mobile.xml" value="0.22" />
+        <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/login/src/main/res/layout/login_verify.xml" value="0.19947916666666668" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/mcq-sdk/mcq/src/main/res/layout/mcq_activity_mock_leaderboard_gk.xml" value="0.18518518518518517" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_action_bar.xml" value="0.16944444444444445" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_activity_channel_playlist.xml" value="0.1685185185185185" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_activity_youtube_player.xml" value="0.16944444444444445" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_activity_youtube_playlist.xml" value="0.1685185185185185" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_video_custom_layout.xml" value="0.16944444444444445" />
+        <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_video_custom_layout2.xml" value="0.16944444444444445" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/gateexam/books/src/main/res/layout/activity_daily_update_full_des.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeleven/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
@@ -132,6 +166,7 @@
         <entry key="..\:/Workspace/DroidHelios/browser/browser/src/main/res/layout/browser_layout_error.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DroidHelios/browser/browser/src/main/res/layout/browser_layout_web_view.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DroidHelios/browser/browser/src/main/res/layout/layout_web_view.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/Droidhelios/browser/browser/src/main/res/layout/browser_activity.xml" value="0.19479166666666667" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/app/src/main/res/layout/activity_main.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/drawable/lib_bg_button.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/lib_activity_frag_holder.xml" value="0.27395833333333336" />
