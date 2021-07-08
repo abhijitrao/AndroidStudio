@@ -2,6 +2,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/drawable/bg_circle_home_page.xml" value="0.2846153846153846" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/drawable/bg_subject_slot.xml" value="0.2846153846153846" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/drawable/ic_action_delete.xml" value="0.2890625" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/drawable/ic_action_edit.xml" value="0.2890625" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/drawable/ic_calendar.xml" value="0.2890625" />
@@ -25,9 +27,11 @@
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/dialog_member_selection.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/dialog_rating_and_review.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/layout_doctor_profile_mini.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/slot_chapter_item.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/slot_doctor_search.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/slot_doctor_time_view.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/slot_skill_education.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/slot_subject_item.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/menu/menu_filter.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/menu/menu_refresh.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/login/src/main/res/layout/activity_profile.xml" value="0.2638888888888889" />
@@ -66,6 +70,9 @@
         <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_video_custom_layout.xml" value="0.16944444444444445" />
         <entry key="..\:/Workspace/DennisLab/LIBS/ytplayer/ytplayer-sdk/src/main/res/layout/yt_video_custom_layout2.xml" value="0.16944444444444445" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/gateexam/books/src/main/res/layout/activity_daily_update_full_des.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/drawable/bg_circle_home_page.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/drawable/bg_circle_home_page_background.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/layout/publisher_list.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeight/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeleven/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/classeleventwelve/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
