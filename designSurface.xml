@@ -18,7 +18,10 @@
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/activity_family_member_list.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/activity_invoice_view.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/activity_live_class.xml" value="0.14270833333333333" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/activity_main.xml" value="0.2638888888888889" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/activity_patient_booking_detail.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/app_bar_home.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/content_home.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/dialog_member_selection.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/dialog_rating_and_review.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/layout_doctor_profile_mini.xml" value="0.27395833333333336" />
@@ -27,6 +30,7 @@
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/layout/slot_skill_education.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/menu/menu_filter.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/menu/menu_refresh.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/login/src/main/res/layout/activity_profile.xml" value="0.2638888888888889" />
         <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/drawable/bg_circle_success.xml" value="0.21458333333333332" />
         <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/drawable/from_parent_backgroung.xml" value="0.21458333333333332" />
         <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_booking_history.xml" value="0.19947916666666668" />
