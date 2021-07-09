@@ -35,6 +35,11 @@
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/menu/menu_filter.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/app/src/main/res/menu/menu_refresh.xml" value="0.27395833333333336" />
         <entry key="..\:/Developer/alphatestingdroid/KatyayanAcademy/login/src/main/res/layout/activity_profile.xml" value="0.2638888888888889" />
+        <entry key="..\:/Developer/alphatestingdroid/katyayanacademy/app/src/main/res/drawable/bg_subject_slot.xml" value="0.2846153846153846" />
+        <entry key="..\:/Developer/alphatestingdroid/katyayanacademy/app/src/main/res/layout/activity_education_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/katyayanacademy/app/src/main/res/layout/activity_mapping_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/katyayanacademy/app/src/main/res/layout/slot_chapter_item.xml" value="0.27395833333333336" />
+        <entry key="..\:/Developer/alphatestingdroid/katyayanacademy/app/src/main/res/layout/slot_subject_item.xml" value="0.25833333333333336" />
         <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/drawable/bg_circle_success.xml" value="0.21458333333333332" />
         <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/drawable/from_parent_backgroung.xml" value="0.21458333333333332" />
         <entry key="..\:/Workspace/CLIENTS/KatyayanAcademy/app/src/main/res/layout/activity_booking_history.xml" value="0.19947916666666668" />
