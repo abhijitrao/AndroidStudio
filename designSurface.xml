@@ -244,16 +244,20 @@
         <entry key="..\:/Workspace/LiveSpace/LoginMaster/login/src/main/res/layout/login_progress_layout.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/gif-viewer/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/app/src/main/res/layout/activity_main.xml" value="0.2518518518518518" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_circle_white_gk.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_navigation.xml" value="0.2846153846153846" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_result_re_attempt_gk.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_result_re_attempt_gk_self_study.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_result_solution_gk.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_result_solution_gk_self_study.xml" value="0.2890625" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_rounded_corner_grey_gk.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_rounded_corner_white_only_self_study.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/drawable/bg_mcq_rounded_side_white_padding_self_study.xml" value="0.2890625" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_bookmark_view.xml" value="0.264" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_bookmark_view_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_bookmark_view_self_study.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_category.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_category_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_mock_leaderboard_gk.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_mock_leaderboard_self_study.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_result.xml" value="0.26974358974358975" />
@@ -263,10 +267,15 @@
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_without_swipe_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_without_swipe_self_study.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_adapter_count.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_adapter_mock_leader_board_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test.xml" value="0.2564814814814815" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test_header.xml" value="0.2564814814814815" />
-        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_layout_category.xml" value="0.2611111111111111" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_layout_category.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_layout_category_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_layout_que_analysis.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_layout_result_brief.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_placeholder_score_item.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_test_body_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_test_body_self_study.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/menu/mcq_menu_share.xml" value="0.27395833333333336" />
