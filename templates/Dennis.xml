@@ -189,4 +189,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="denHashMapItrator" value="for (Map.Entry&lt;String,String&gt; entry : hashMap.entrySet()) {&#10;  String key = entry.getKey();&#10;  String value = entry.getValue();&#10;  // do stuff&#10;}" description="Print all Hashmap kev values pair" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
