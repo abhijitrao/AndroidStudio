@@ -130,11 +130,14 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/activity_home_dashboard.xml" value="0.2644927536231884" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/activity_section_class.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/activity_section_class_dynamic.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/app_bar_main.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/app_bar_main_hcverma.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/frag_layout_home.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/fragment_category.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/fragment_classes_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/item_data_adapter.xml" value="0.2859375" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/item_data_parent.xml" value="0.2859375" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/list_classes.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/publisher_list.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
