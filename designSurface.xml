@@ -144,7 +144,10 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/layout_progress_homepage.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/list_classes.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/placeholder_item_home_page1.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/placeholder_item_home_page_child.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/publisher_list.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/slot_home_ncert.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/layout/slot_home_ncert_sub_item.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/menu/app_navigation.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/ncertbookpdfviewer/app/src/main/res/menu/menu_main.xml" value="0.27395833333333336" />
@@ -310,6 +313,7 @@
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_activity_without_swipe_self_study.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_adapter_count.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_adapter_mock_leader_board_gk.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_header_body_placeholder_item.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test.xml" value="0.2564814814814815" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test_gk.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/LiveSpace/mcq-sdk/mcq/src/main/res/layout/mcq_item_list_mock_test_header.xml" value="0.2564814814814815" />
