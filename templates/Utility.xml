@@ -200,7 +200,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="utilActivityTransitionStart" value="if (android.os.Build.VERSION.SDK_INT &gt;= android.os.Build.VERSION_CODES.LOLLIPOP) {&#10;    ActivityOptions options = ActivityOptions&#10;            .makeSceneTransitionAnimation(activity, view, activity.getString(R.string.transition_actionbar_title));&#10;    activity.startActivity(categoryIntent, options.toBundle());&#10;}else {&#10;    activity.startActivity(categoryIntent);&#10;}" description="Start activity with transition views" toReformat="false" toShortenFQNames="true">
+  <template name="utilActivityTransitionStart" value="if (android.os.Build.VERSION.SDK_INT &gt;= android.os.Build.VERSION_CODES.LOLLIPOP) {&#10;    ActivityOptions options = ActivityOptions&#10;            .makeSceneTransitionAnimation(activity, view, activity.getString(R.string.transition_actionbar_title));&#10;    activity.startActivity(categoryIntent, options.toBundle());&#10;}else {&#10;    activity.startActivity(categoryIntent);&#10;}&#10;//Use for finish activity with animation&#10;activity.finishAfterTransition();" description="Start activity with transition views" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
