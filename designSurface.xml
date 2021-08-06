@@ -156,7 +156,7 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/drawable/bg_edit_text_bottom_border.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/drawable/bg_user_profile_leaderboard.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/drawable/lib_bg_circle_green.xml" value="0.2890625" />
-        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/activity_main.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/activity_splash.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/app_bar_main.xml" value="0.26974358974358975" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/content_main.xml" value="0.27395833333333336" />
@@ -169,9 +169,11 @@
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/lib_profile_action_bar.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/nav_header_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/layout/slot_home.xml" value="0.27395833333333336" />
-        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/activity_main2_drawer.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/activity_main2_drawer.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/main/res/menu/app_menu_share.xml" value="0.26974358974358975" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/selfstudys/res/drawable-night/profile.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/selfstudys/res/layout/activity_splash.xml" value="0.27395833333333336" />
+        <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/app/src/selfstudys/res/layout/nav_header_main.xml" value="0.27395833333333336" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/drawable/bg_updates_card_dash_line.xml" value="0.536" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/drawable/books_bg_action_bar.xml" value="0.2890625" />
         <entry key="..\:/Workspace/DennisLabWorkspace2020/stateboard/books/src/main/res/layout/activity_daily_update_full_des.xml" value="0.25833333333333336" />
