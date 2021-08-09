@@ -210,4 +210,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="utilURIorURLBuilder" value="//https://www.myawesomesite.com/turtles/types?type=1&amp;sort=relevance#section-name&#10;Uri.Builder builder = new Uri.Builder();&#10;builder.scheme(&quot;https&quot;)&#10;    .authority(&quot;www.myawesomesite.com&quot;)&#10;    .appendPath(&quot;turtles&quot;)&#10;    .appendPath(&quot;types&quot;)&#10;    .appendQueryParameter(&quot;type&quot;, &quot;1&quot;)&#10;    .appendQueryParameter(&quot;sort&quot;, &quot;relevance&quot;)&#10;    .fragment(&quot;section-name&quot;);&#10;String myUrl = builder.build().toString();&#10;&#10;public String getUrlParamValue(String url, String key) {&#10;    Uri uri = Uri.parse(url);&#10;    return uri.getQueryParameter(key);&#10;}" description="create url with params" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
