@@ -34,7 +34,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="gdlCompileOptions" value="&#10;compileOptions {&#10;    sourceCompatibility JavaVersion.VERSION_1_8&#10;    targetCompatibility JavaVersion.VERSION_1_8&#10;}" description="Adding JavaVersion.VERSION_1_8" toReformat="false" toShortenFQNames="true">
+  <template name="gdlCompileOptions" value="&#10;compileOptions {&#10;    sourceCompatibility JavaVersion.VERSION_1_8&#10;    targetCompatibility JavaVersion.VERSION_1_8&#10;}&#10;&#10;android {&#10;    compileSdkVersion 30&#10;&#10;    compileOptions {&#10;      sourceCompatibility JavaVersion.VERSION_11&#10;      targetCompatibility JavaVersion.VERSION_11&#10;    }&#10;&#10;    // For Kotlin projects&#10;    kotlinOptions {&#10;      jvmTarget = &quot;11&quot;&#10;    }&#10;}" description="Adding JavaVersion.VERSION_1_8" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
