@@ -220,4 +220,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="utilMenuDefaultWithActionbar" value="if (getSupportActionBar() != null) {&#10;    getSupportActionBar().setDisplayHomeAsUpEnabled(true);&#10;}&#10;@Override&#10;public boolean onOptionsItemSelected(MenuItem item) {&#10;    switch (item.getItemId()) {&#10;        case android.R.id.home:&#10;            // API 5+ solution&#10;            onBackPressed();&#10;            return true;&#10;        default:&#10;            return super.onOptionsItemSelected(item);&#10;    }&#10;}" description="Create Actionbar backbutton with menu listener" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
