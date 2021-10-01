@@ -1,5 +1,5 @@
 <templateSet group="Gradle">
-  <template name="gdlXlint" value="gradle.projectsEvaluated {&#10;        tasks.withType(JavaCompile) {&#10;            options.compilerArgs &lt;&lt; &quot;-Xlint:deprecation&quot;&#10;        }&#10;}   " description="adding this to root gradle file under allprojects - recompile with -Xlint:deprecation" toReformat="false" toShortenFQNames="true">
+  <template name="gdlXLint" value="allprojects {&#10;    gradle.projectsEvaluated {&#10;        tasks.withType(JavaCompile) {&#10;            options.compilerArgs &lt;&lt; &quot;-Xlint:deprecation&quot;&#10;        }&#10;    }&#10;}" description="adding this to root gradle file - recompile with -Xlint:deprecation" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
