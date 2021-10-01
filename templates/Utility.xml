@@ -225,4 +225,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="uiilDialogCreate" value="public static void showDialog(Context context, String title, Response.OnClickListener&lt;Integer&gt; callback) {&#10;    Dialog dialog = new Dialog(context);&#10;    dialog.setCancelable(false);&#10;    dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);&#10;    dialog.setContentView(R.layout.dialog_alert);&#10;    TextView tvTitle = dialog.findViewById(R.id.tv_title);&#10;    tvTitle.setText(title);&#10;    (dialog.findViewById(R.id.btn_ok)).setOnClickListener(new View.OnClickListener() {&#10;        @Override&#10;        public void onClick(View v) {&#10;            callback.onItemClicked(v, Integer.parseInt(v.getTag().toString()));&#10;            dialog.cancel();&#10;        }&#10;    });&#10;    dialog.show();&#10;}" description="Create dialog with custom layout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
