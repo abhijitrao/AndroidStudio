@@ -1,5 +1,5 @@
 <templateSet group="Gradle">
-  <template name="gdlXlint" value="gradle.projectsEvaluated {&#10;        tasks.withType(JavaCompile) {&#10;            options.compilerArgs &lt;&lt; &quot;-Xlint:deprecation&quot;&#10;        }&#10;}   " description="adding this to root gradle file under allprojects - recompile with -Xlint:deprecation" toReformat="false" toShortenFQNames="true">
+  <template name="gdlXLint" value="allprojects {&#10;    gradle.projectsEvaluated {&#10;        tasks.withType(JavaCompile) {&#10;            options.compilerArgs &lt;&lt; &quot;-Xlint:deprecation&quot;&#10;        }&#10;    }&#10;}" description="adding this to root gradle file - recompile with -Xlint:deprecation" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -34,7 +34,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="gdlCompileOptions" value="&#10;compileOptions {&#10;    sourceCompatibility JavaVersion.VERSION_1_8&#10;    targetCompatibility JavaVersion.VERSION_1_8&#10;}" description="Adding JavaVersion.VERSION_1_8" toReformat="false" toShortenFQNames="true">
+  <template name="gdlCompileOptions" value="&#10;compileOptions {&#10;    sourceCompatibility JavaVersion.VERSION_1_8&#10;    targetCompatibility JavaVersion.VERSION_1_8&#10;}&#10;&#10;android {&#10;    compileSdkVersion 30&#10;&#10;    compileOptions {&#10;      sourceCompatibility JavaVersion.VERSION_11&#10;      targetCompatibility JavaVersion.VERSION_11&#10;    }&#10;&#10;    // For Kotlin projects&#10;    kotlinOptions {&#10;      jvmTarget = &quot;11&quot;&#10;    }&#10;}" description="Adding JavaVersion.VERSION_1_8" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>

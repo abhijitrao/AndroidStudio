@@ -24,4 +24,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="getInstance" value="public static MethodName getInstance() {&#10;    if (instance == null) {&#10;        synchronized (MethodName.class) {&#10;            if (instance == null) instance = new MethodName();&#10;        }&#10;    }&#10;    return instance;&#10;}" description="Create getInstance method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>

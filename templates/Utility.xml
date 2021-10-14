@@ -29,7 +29,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="utilAlertDialog" value="//Simple&#10;AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.DialogTheme);&#10;builder.setTitle(&quot;Alert!&quot;)&#10;        .setMessage(&quot;Detail message body?&quot;)&#10;        .setPositiveButton(&quot;Apply&quot;, (dialog, id) -&gt; {&#10;            dialog.dismiss();&#10;        })&#10;        .setNegativeButton(&quot;Cancel&quot;, (dialog, id) -&gt; dialog.dismiss());&#10;builder.setCancelable(true);&#10;builder.create().show();&#10;//Advance &#10;AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.DialogTheme);&#10;builder.setTitle(&quot;Alert!&quot;);&#10;builder.setMessage(&quot;Detail message body?&quot;);&#10;DialogInterface.OnClickListener buttonListener = new DialogInterface.OnClickListener() {&#10;    public void onClick(DialogInterface dialog, int which) {&#10;        dialog.dismiss();&#10;    }&#10;};&#10;builder.setOnCancelListener(new DialogInterface.OnCancelListener() {&#10;    @Override&#10;    public void onCancel(DialogInterface dialogInterface) {&#10;        dialogInterface.dismiss();&#10;    }&#10;});&#10;builder.setNeutralButton(&quot;Neutral&quot;, buttonListener);&#10;builder.setPositiveButton(&quot;Apply&quot;, buttonListener);&#10;builder.setNegativeButton(&quot;Cancel&quot;, buttonListener);&#10;&#10;AlertDialog alertDialog = builder.create();&#10;alertDialog.setCanceledOnTouchOutside(true);&#10;alertDialog.setCancelable(true);&#10;alertDialog.show();" description="Create new Alert Dialog through AlertDialog.Builder" toReformat="false" toShortenFQNames="true">
+  <template name="utilAlertDialog" value="//Simple&#10;AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.DialogTheme);&#10;builder.setTitle(&quot;Alert!&quot;)&#10;        .setMessage(&quot;Detail message body?&quot;)&#10;        .setPositiveButton(&quot;Apply&quot;, (dialog, id) -&gt; {&#10;            dialog.dismiss();&#10;        })&#10;        .setNegativeButton(&quot;Cancel&quot;, (dialog, id) -&gt; dialog.dismiss());&#10;builder.setCancelable(true);&#10;builder.create().show();&#10;//Advance &#10;AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.DialogTheme);&#10;builder.setTitle(&quot;Alert!&quot;);&#10;builder.setMessage(&quot;Detail message body?&quot;);&#10;DialogInterface.OnClickListener buttonListener = new DialogInterface.OnClickListener() {&#10;    public void onClick(DialogInterface dialog, int which) {&#10;        dialog.dismiss();&#10;    }&#10;};&#10;builder.setOnCancelListener(new DialogInterface.OnCancelListener() {&#10;    @Override&#10;    public void onCancel(DialogInterface dialogInterface) {&#10;        dialogInterface.dismiss();&#10;    }&#10;});&#10;builder.setNeutralButton(&quot;Neutral&quot;, buttonListener);&#10;builder.setPositiveButton(&quot;Apply&quot;, buttonListener);&#10;builder.setNegativeButton(&quot;Cancel&quot;, buttonListener);&#10;&#10;AlertDialog alertDialog = builder.create();&#10;alertDialog.setCanceledOnTouchOutside(true);&#10;alertDialog.setCancelable(true);&#10;alertDialog.show();" description="Create new default alert dialog through AlertDialog.Builder" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
@@ -175,7 +175,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="utilAttachListener" value="@Override&#10;public void onAttach(Context context) {&#10;    super.onAttach(context);&#10;    if (context instanceof AppCallback.OnViewMoreListener) {&#10;        mListener = (AppCallback.OnViewMoreListener) context;&#10;    }&#10;}" description="Allach listener in fragment" toReformat="false" toShortenFQNames="true">
+  <template name="utilAttachListener" value="@Override&#10;public void onAttach(@NonNull Context context) {&#10;    super.onAttach(context);&#10;    if (context instanceof AppCallback.OnViewMoreListener) {&#10;        mListener = (AppCallback.OnViewMoreListener) context;&#10;    }&#10;}" description="Allach listener in fragment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
@@ -191,6 +191,46 @@
     </context>
   </template>
   <template name="utilSetColorFilterStringColor" value="&#10;//  setColorFilter(holder.itemView.getBackground(), Color.parseColor(getColorValues(position)));&#10;    @SuppressWarnings(&quot;deprecation&quot;)&#10;    public static void setColorFilter(@NonNull Drawable drawable, int color) {&#10;        if (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.Q) {&#10;            drawable.setColorFilter(new BlendModeColorFilter(color, BlendMode.SRC_ATOP));&#10;        } else {&#10;            drawable.setColorFilter(color, PorterDuff.Mode.SRC_ATOP);&#10;        }&#10;    }&#10;&#10;    private String getColorValues(int i) {&#10;        if (i % 8 == 0) {&#10;            return &quot;#FFF5DA&quot;;&#10;        } else if (i == 1 || (i - 1) % 8 == 0) {&#10;            return &quot;#DFEEFB&quot;;&#10;        } else if (i == 2 || (i - 2) % 8 == 0) {&#10;            return &quot;#D8FFFC&quot;;&#10;        } else if (i == 3 || (i - 3) % 8 == 0) {&#10;            return &quot;#F2EEFF&quot;;&#10;        } else if (i == 4 || (i - 4) % 8 == 0) {&#10;            return &quot;#FAFFD7&quot;;&#10;        } else if (i == 5 || (i - 5) % 8 == 0) {&#10;            return &quot;#E0F7FF&quot;;&#10;        } else if (i == 6 || (i - 6) % 8 == 0) {&#10;            return &quot;#2CE0A3&quot;;&#10;        } else if (i == 7 || (i - 7) % 8 == 0) {&#10;            return &quot;#FA0B70&quot;;&#10;        } else {&#10;            return &quot;#FFF5DA&quot;;&#10;        }&#10;    }" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilFindImageNameByResourceId" value="getResources().getResourceEntryName(value.getImageId())" description="find resource name by resource id" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilActivityTransitionStart" value="if (android.os.Build.VERSION.SDK_INT &gt;= android.os.Build.VERSION_CODES.LOLLIPOP) {&#10;    ActivityOptions options = ActivityOptions&#10;            .makeSceneTransitionAnimation(activity, view, activity.getString(R.string.transition_actionbar_title));&#10;    activity.startActivity(categoryIntent, options.toBundle());&#10;}else {&#10;    activity.startActivity(categoryIntent);&#10;}&#10;//Use for finish activity with animation&#10;activity.finishAfterTransition();" description="Start activity with transition views" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilSerializedName" value="@Expose&#10;@SerializedName(value=&quot;key_1&quot;)" description="Gson serialized name" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilURIorURLBuilder" value="//https://www.myawesomesite.com/turtles/types?type=1&amp;sort=relevance#section-name&#10;Uri.Builder builder = new Uri.Builder();&#10;builder.scheme(&quot;https&quot;)&#10;    .authority(&quot;www.myawesomesite.com&quot;)&#10;    .appendPath(&quot;turtles&quot;)&#10;    .appendPath(&quot;types&quot;)&#10;    .appendQueryParameter(&quot;type&quot;, &quot;1&quot;)&#10;    .appendQueryParameter(&quot;sort&quot;, &quot;relevance&quot;)&#10;    .fragment(&quot;section-name&quot;);&#10;String myUrl = builder.build().toString();&#10;&#10;public String getUrlParamValue(String url, String key) {&#10;    Uri uri = Uri.parse(url);&#10;    return uri.getQueryParameter(key);&#10;}" description="create url with params" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilHandler" value="private Handler handler;&#10;&#10;private Handler getHandler() {&#10;    if(handler == null){&#10;        handler = new Handler();&#10;    }&#10;    return handler;&#10;}" description="Create Handler getter method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilMenuDefaultWithActionbar" value="if (getSupportActionBar() != null) {&#10;    getSupportActionBar().setDisplayHomeAsUpEnabled(true);&#10;}&#10;@Override&#10;public boolean onOptionsItemSelected(MenuItem item) {&#10;    switch (item.getItemId()) {&#10;        case android.R.id.home:&#10;            // API 5+ solution&#10;            onBackPressed();&#10;            return true;&#10;        default:&#10;            return super.onOptionsItemSelected(item);&#10;    }&#10;}" description="Create Actionbar backbutton with menu listener" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilDialogCreate" value="public static void showDialog(Context context, String title, Response.OnClickListener&lt;Integer&gt; callback) {&#10;    Dialog dialog = new Dialog(context);&#10;    dialog.setCancelable(false);&#10;    dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);&#10;    dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));&#10;    dialog.setContentView(R.layout.dialog_alert);&#10;    TextView tvTitle = dialog.findViewById(R.id.tv_title);&#10;    tvTitle.setText(title);&#10;    (dialog.findViewById(R.id.btn_ok)).setOnClickListener(new View.OnClickListener() {&#10;        @Override&#10;        public void onClick(View v) {&#10;            callback.onItemClicked(v, Integer.parseInt(v.getTag().toString()));&#10;            dialog.cancel();&#10;        }&#10;    });&#10;    dialog.show();&#10;}" description="Create dialog with custom layout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="utilAlertDialogCustom" value="private void showLoginPopup(Activity activity) {&#10;    AlertDialog.Builder builder = new AlertDialog.Builder(activity);&#10;    View dialogView = LayoutInflater.from(activity).inflate(R.layout.dialog_alert, null);&#10;    builder.setView(dialogView);&#10;    builder.setCancelable(false);&#10;    TextView tvTitle = (TextView) dialogView.findViewById(R.id.tv_dialog_title);&#10;    Button btnOk = (Button) dialogView.findViewById(R.id.btn_ok); &#10;    if (!TextUtils.isEmpty(title)) {&#10;        tvTitle.setText(title);&#10;    }&#10;    AlertDialog dialog = builder.create();&#10;    dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);&#10;    dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));&#10;    dialog.show();&#10;    btnOk.setOnClickListener(new View.OnClickListener() {&#10;        @Override&#10;        public void onClick(View v) {&#10;            if (dialog != null) {&#10;                dialog.dismiss();&#10;            }&#10;        }&#10;    });&#10;}" description="Create Alert Dialog with custom layout" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
