@@ -41,6 +41,7 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="IntroduceTypeAlias" />
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
