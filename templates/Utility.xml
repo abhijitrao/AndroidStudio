@@ -235,4 +235,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="utilCloneModel" value="implements Cloneable&#10;&#10;@NonNull&#10;@Override&#10;protected Object clone() throws CloneNotSupportedException {&#10;    return super.clone();&#10;}&#10;&#10;public ModelName getClone() {&#10;    try {&#10;        return (ModelName) clone();&#10;    } catch (CloneNotSupportedException e) {&#10;        return new ModelName();&#10;    }&#10;}" description="Create getClone mathod in modle class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
