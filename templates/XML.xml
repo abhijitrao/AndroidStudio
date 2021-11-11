@@ -109,4 +109,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlSpinnerView" value="&lt;Spinner&#10;    android:id=&quot;@+id/sp_main&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:spinnerMode=&quot;dropdown&quot;&#10;    android:paddingTop=&quot;2dp&quot;&#10;    android:paddingBottom=&quot;4dp&quot;&#10;    android:paddingLeft=&quot;12dp&quot;&#10;    android:paddingRight=&quot;32dp&quot;&#10;    android:background=&quot;@drawable/bg_spinner_with_dropdown_arrow&quot;&#10;    style=&quot;@style/SpinnerStyle&quot;/&gt;" description="Create Spinner with default properties" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
