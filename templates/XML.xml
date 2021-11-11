@@ -114,4 +114,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlSpinnerDrawable" value="&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item&gt;&#10;        &lt;shape android:shape=&quot;rectangle&quot;&gt;&#10;            &lt;solid android:color=&quot;@color/exam_color_background_test_spinner&quot; /&gt;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;    &lt;item&#10;        android:width=&quot;10dp&quot;&#10;        android:height=&quot;10dp&quot;&#10;        android:right=&quot;12dp&quot;&#10;        android:gravity=&quot;right|center_vertical&quot;&gt;&#10;        &lt;!--    image is 10px    --&gt;&#10;        &lt;bitmap&#10;            android:src=&quot;@drawable/exam_ic_spinner_dropdown&quot;&#10;            android:tint=&quot;@color/themeColorBlackWhite&quot; /&gt;&#10;    &lt;/item&gt;&#10;&lt;/layer-list&gt;" description="Spinner background with dropdown icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
