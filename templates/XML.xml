@@ -119,4 +119,9 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlTabLayout" value="&lt;com.google.android.material.tabs.TabLayout&#10;    android:id=&quot;@+id/tab_layout&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:layout_marginBottom=&quot;4dp&quot;&#10;    android:layout_marginLeft=&quot;4dp&quot;&#10;    android:layout_marginRight=&quot;4dp&quot;&#10;    app:tabMode=&quot;scrollable&quot;&#10;    app:tabBackground=&quot;@color/exam_color_tab_background_category&quot;&#10;    app:tabIndicatorHeight=&quot;0dp&quot;&#10;    app:tabPaddingStart=&quot;4dp&quot;&#10;    app:tabPaddingEnd=&quot;4dp&quot;/&gt;&#10;    &#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;!--android:background=&quot;@drawable/layout_custom_tab&quot;--&gt;&#10;&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item android:drawable=&quot;@drawable/bg_tab_rounded_shape_selected&quot; android:state_selected=&quot;true&quot;/&gt;&#10;    &lt;item android:drawable=&quot;@drawable/bg_tab_rounded_shape&quot; android:state_selected=&quot;false&quot;/&gt;&#10;&lt;/selector&gt;    &#10;&#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;!--android:textColor=&quot;@color/color_custom_tab_text_color&quot;--&gt;&#10;&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item android:color=&quot;@color/color_tab_text_selected&quot; android:state_selected=&quot;true&quot;/&gt;&#10;    &lt;item android:color=&quot;@color/color_tab_text&quot; android:state_selected=&quot;false&quot;/&gt;&#10;&lt;/selector&gt;" description="Create Tab layout with custom tabs background drawable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
