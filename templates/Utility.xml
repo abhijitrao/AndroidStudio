@@ -240,4 +240,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="utilTabSetupViewPager" value="private fun setupViewPager(view: View) {&#10;    val viewPager: ViewPager2 = view.findViewById(R.id.view_pager)&#10;    setupViewPager(viewPager)&#10;    val tabLayout: TabLayout = view.findViewById(R.id.tabs)&#10;&#10;    TabLayoutMediator(tabLayout, viewPager) { tab, position -&gt;&#10;            tab.setCustomView(R.layout.exam_layout_tab_test_type)&#10;        val tvTitle = tab.customView?.findViewById&lt;TextView&gt;(R.id.tv_title)&#10;                tvTitle?.text = tabs[position]&#10;    }.attach()&#10;}&#10;&#10;private void setupViewPager(View view) {&#10;    final ViewPager viewPager = (ViewPager) view.findViewById(R.id.view_pager);&#10;    viewPager.addOnPageChangeListener(this);&#10;    setupViewPager(viewPager);&#10;&#10;    TabLayout tabLayout = (TabLayout) view.findViewById(R.id.tabs);&#10;    tabLayout.setupWithViewPager(viewPager);&#10;//         Iterate over all tabs and set the custom view&#10;    for (int i = 0; i &lt; tabLayout.getTabCount(); i++) {&#10;        TabLayout.Tab tab = tabLayout.getTabAt(i);&#10;        if (tab != null &amp;&amp; adapter != null) {&#10;            tab.setCustomView(R.layout.exam_paid_layout_tab_compare);&#10;            if(tab.getCustomView() != null) {&#10;                TextView tvTitle = tab.getCustomView().findViewById(R.id.tv_title);&#10;                tvTitle.setText(adapter.getPageTitle(i));&#10;            }&#10;        }&#10;    }&#10;}" description="Tab and ViewPager setup" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
