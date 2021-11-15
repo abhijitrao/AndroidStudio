@@ -124,4 +124,19 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlTabLayoutWithItems" value="&lt;com.google.android.material.tabs.TabLayout&#10;    android:id=&quot;@+id/tab_layout&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    app:tabBackground=&quot;@android:color/transparent&quot;&#10;    app:tabPaddingStart=&quot;0dp&quot;&#10;    app:tabPaddingEnd=&quot;0dp&quot;&#10;    app:tabIndicatorHeight=&quot;0dp&quot;&gt;&#10;&#10;    &lt;com.google.android.material.tabs.TabItem&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:layout=&quot;@layout/tab_layout_grid&quot; /&gt;&#10;&#10;    &lt;com.google.android.material.tabs.TabItem&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:layout=&quot;@layout/tab_layout_list&quot; /&gt;&#10;&lt;/com.google.android.material.tabs.TabLayout&gt;" description="Create Tab layout with TabItems for custom tab" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlTabLayoutWithItemsDesign" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;    xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:minWidth=&quot;60dp&quot;&#10;    android:gravity=&quot;center&quot;&#10;    android:orientation=&quot;vertical&quot;&#10;    android:padding=&quot;4dp&quot;&gt;&#10;&#10;    &lt;ImageView&#10;        android:layout_width=&quot;30dp&quot;&#10;        android:layout_height=&quot;30dp&quot;&#10;        android:src=&quot;@drawable/exam_ic_action_grid&quot;&#10;        app:tint=&quot;@color/tab_selector_color&quot; /&gt;&#10;&#10;    &lt;TextView&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:text=&quot;Grid View&quot;&#10;        android:textColor=&quot;@color/tab_selector_color&quot;&#10;        android:textSize=&quot;10sp&quot; /&gt;&#10;&#10;&lt;/LinearLayout&gt;&#10;&lt;!--Color Selector @color/tab_selector_color--&gt;&#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;&lt;item android:color=&quot;#FF9800&quot; android:state_selected=&quot;true&quot;/&gt;&#10;&lt;item android:color=&quot;#D6A254&quot;/&gt;&#10;&lt;/selector&gt;" description="Create TabItem Layout design with drawable color selector" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlSelectorColor" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item android:color=&quot;#FF9800&quot; android:state_selected=&quot;true&quot;/&gt;&#10;    &lt;item android:color=&quot;#D6A254&quot;/&gt;&#10;&lt;/selector&gt;" description="Create color selector and default" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
