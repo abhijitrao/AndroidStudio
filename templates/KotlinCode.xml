@@ -1,0 +1,12 @@
+<templateSet group="KotlinCode">
+  <template name="ktForLoopBySize" value="for (i in 0 until mList.size) {&#10;    &#10;}" description="Create For loop by array size" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ktForLoopByIndices" value="for(i in mList.indices){&#10;    &#10;}" description="Create for loop by indices" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
