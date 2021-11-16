@@ -139,4 +139,14 @@
       <option name="XML" value="true" />
     </context>
   </template>
+  <template name="xmlProgressBarHorizontal" value="&lt;ProgressBar&#10;    android:id=&quot;@+id/progressBar&quot;&#10;    style=&quot;?android:attr/progressBarStyleHorizontal&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;3.7dp&quot;&#10;    android:layout_marginLeft=&quot;10dp&quot;&#10;    android:layout_marginTop=&quot;4dp&quot; &#10;    android:progress=&quot;0&quot;&#10;    android:progressDrawable=&quot;@drawable/bg_gradient_progress&quot; /&gt;&#10;" description="Create Horizontal progress bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="xmlProgressBarHorizontalDrawable" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;&#10;    &lt;item android:id=&quot;@android:id/background&quot;&gt;&#10;        &lt;shape&gt;&#10;            &lt;corners android:radius=&quot;5dp&quot; /&gt;&#10;            &lt;solid android:color=&quot;#fff&quot; /&gt;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;&#10;    &lt;item android:id=&quot;@android:id/progress&quot;&gt;&#10;        &lt;clip&gt;&#10;            &lt;shape&gt;&#10;                &lt;corners android:radius=&quot;5dp&quot; /&gt;&#10;                &lt;gradient&#10;                    android:angle=&quot;0&quot;&#10;                    android:startColor=&quot;@color/color_gradient_start&quot;&#10;                    android:endColor=&quot;@color/color_gradient_end&quot;/&gt;&#10;            &lt;/shape&gt;&#10;        &lt;/clip&gt;&#10;    &lt;/item&gt;&#10;&#10;&lt;/layer-list&gt;" description="Create Horizontal progress bar background drawable" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
 </templateSet>
