@@ -9,4 +9,14 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="keArrayFixed" value="var arrayName = Array&lt;String&gt;(3){&#10;    &quot;Value1&quot;;&#10;    &quot;Value2&quot;;&#10;    &quot;Value3&quot;;&#10;}" description="var arrayName = Array&lt;String&gt;(3)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ktArrayList" value="val arrayName: ArrayList&lt;Any&gt; = ArrayList()&#10;    " description="Create and initilize ArrayList" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
