@@ -29,4 +29,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ktTaskRunner" value="TaskRunner.getInstance().executeAsync(object : Callable&lt;Any&gt;{&#10;    override fun call(): Any {&#10;        TODO(&quot;Not yet implemented&quot;)&#10;    }&#10;}, object : TaskRunner.Callback&lt;Any&gt;{&#10;    override fun onComplete(result: Any?) {&#10;        TODO(&quot;Not yet implemented&quot;)&#10;    }&#10;})" description="Create TaskRunner menthod" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
