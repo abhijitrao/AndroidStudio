@@ -39,4 +39,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ktHashmapItrator" value="for ((key, value) in map) {&#10;    println(&quot;$key = $value&quot;)&#10;}" description="Hashmap itrator fol loop" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
