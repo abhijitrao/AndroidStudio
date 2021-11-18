@@ -24,4 +24,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ktNullCheck" value="var number: Int? = null&#10;    &#10;println(number ?: &quot;Number is null&quot;) // prints &quot;Number is null&quot;&#10;number = 10&#10;println(number ?: &quot;Number is null&quot;) // prints 10" description="Null check logic" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
