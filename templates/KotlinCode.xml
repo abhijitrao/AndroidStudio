@@ -34,4 +34,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ktForLoopByList" value="for (item in mList) {&#10;&#10;}" description="Create for loop for List&lt;AnyModel&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
