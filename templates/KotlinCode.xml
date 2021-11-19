@@ -49,4 +49,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="ktArrayListInitilized" value="val arrayName: List&lt;Int&gt; = listOf(1,2)" description="Initilized array list" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
