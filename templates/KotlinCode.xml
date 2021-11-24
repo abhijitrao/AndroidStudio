@@ -9,7 +9,7 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
-  <template name="keArrayFixed" value="var arrayName = Array&lt;String&gt;(3){&#10;    &quot;Value1&quot;;&#10;    &quot;Value2&quot;;&#10;    &quot;Value3&quot;;&#10;}" description="var arrayName = Array&lt;String&gt;(3)" toReformat="false" toShortenFQNames="true">
+  <template name="ktArrayFixed" value="var arrayName = Array&lt;String&gt;(3){&#10;    &quot;Value1&quot;;&#10;    &quot;Value2&quot;;&#10;    &quot;Value3&quot;;&#10;}" description="var arrayName = Array&lt;String&gt;(3)" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
@@ -50,6 +50,11 @@
     </context>
   </template>
   <template name="ktArrayListInitilized" value="val arrayName: List&lt;Int&gt; = listOf(1,2)" description="Initilized array list" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="ktCasting" value="if (parentFragment is OngoingChildListener) {&#10;    mLoadMoreListener = parentFragment as OngoingChildListener&#10;}" description="Cating in kotlin" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="KOTLIN" value="true" />
     </context>
