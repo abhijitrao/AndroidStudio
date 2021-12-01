@@ -149,7 +149,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="xmlShapeRectanglePadding" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item&#10;        android:bottom=&quot;8dp&quot;&#10;        android:left=&quot;8dp&quot;&#10;        android:right=&quot;8dp&quot;&#10;        android:top=&quot;8dp&quot;&gt;&#10;&#10;        &lt;shape android:shape=&quot;rectangle&quot;&gt;&#10;&#10;            &lt;solid android:color=&quot;#F8F8F8&quot; /&gt;&#10;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;&#10;&lt;/layer-list&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="xmlShapeRectanglePadding" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;&#10;    &lt;item&#10;        android:bottom=&quot;8dp&quot;&#10;        android:left=&quot;8dp&quot;&#10;        android:right=&quot;8dp&quot;&#10;        android:top=&quot;8dp&quot;&gt;&#10;&#10;        &lt;shape android:shape=&quot;rectangle&quot;&gt;&#10;&#10;            &lt;solid android:color=&quot;#F8F8F8&quot; /&gt;&#10;&#10;        &lt;/shape&gt;&#10;    &lt;/item&gt;&#10;&#10;&lt;/layer-list&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
     </context>
