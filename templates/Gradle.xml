@@ -50,7 +50,7 @@
       <option name="GROOVY" value="true" />
     </context>
   </template>
-  <template name="gdlDependencyBrowser" value="implementation 'com.github.appsfeature:browser:2.0'" description="implement browser dependency" toReformat="false" toShortenFQNames="true">
+  <template name="gdlDependencyBrowser" value="implementation 'com.github.appsfeature:browser:2.1'" description="implement browser dependency" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="GROOVY" value="true" />
     </context>
