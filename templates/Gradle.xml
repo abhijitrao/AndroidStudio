@@ -45,4 +45,29 @@
     </context>
   </template>
   <template name="gdlEnablePSVM" value=" &lt;option name=&quot;delegatedBuild&quot; value=&quot;false&quot; /&gt;" description="Add the following line before &lt;/GradleProjectSettings/&gt; path//.idea/gradle.xml" toReformat="false" toShortenFQNames="true" />
+  <template name="gdlDependencyFormBuilder" value="implementation &quot;com.github.appsfeature:form-builder:1.3&quot;" description="dependency form-builder" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="gdlDependencyBrowser" value="implementation 'com.github.appsfeature:browser:2.0'" description="implement browser dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="gdlDependencyLogin" value="implementation 'com.github.appsfeature:login-sdk:1.0'" description="implement login dependency" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="gdlDependencyAndroid" value="ext {&#10;    appcompat = '1.3.0'&#10;    material = '1.3.0'&#10;    recyclerview = '1.1.0'&#10;    cardview = '1.0.0' &#10;}&#10;implementation &quot;androidx.appcompat:appcompat:$rootProject.ext.appcompat&quot;&#10;implementation &quot;com.google.android.material:material:$rootProject.ext.material&quot;&#10;implementation &quot;androidx.recyclerview:recyclerview:$rootProject.ext.recyclerview&quot;&#10;implementation &quot;androidx.cardview:cardview:$rootProject.ext.cardview&quot;" description="implement basic like appcompat, material and so on." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="gdlDependencyHelper" value="ext {&#10;    helper_version = '1.5'&#10;}&#10;implementation &quot;org.bitbucket.android-dennislabs:helper:$rootProject.ext.helper_version&quot;" description="implement helper" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
 </templateSet>
